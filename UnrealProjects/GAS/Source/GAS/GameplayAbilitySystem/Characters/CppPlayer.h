@@ -18,7 +18,7 @@ public:
 	ACppPlayer();
 	
 	// Ability System Component
-	UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category = "AbilitySystem")
+	UPROPERTY(VisibleAnywhere, BlueprintReadWrite, Category = "AbilitySystem")
 	UAbilitySystemComponent* AbilitySystemComponent;
 
 protected:
