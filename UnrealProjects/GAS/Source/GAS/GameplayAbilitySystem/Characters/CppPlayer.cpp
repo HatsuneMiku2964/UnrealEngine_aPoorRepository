@@ -16,24 +16,28 @@ ACppPlayer::ACppPlayer()
 	AbilitySystemComponent -> SetIsReplicated(true);
 	AbilitySystemComponent -> SetReplicationMode(AscReplicationMode);
 	
-	// Set collision size
-	GetCapsuleComponent() -> InitCapsuleSize(35.0f, 90.0f);
+	// Default values
 	
-	// Don't rotate when the controller rotates. Let that just affect the camera.
-	bUseControllerRotationPitch = false;
-	bUseControllerRotationYaw = false;
-	bUseControllerRotationRoll = false;
+		// Set collision size
+		GetCapsuleComponent() -> InitCapsuleSize(35.0f, 90.0f);
+		
+		// Don't rotate when the controller rotates. Let that just affect the camera.
+		bUseControllerRotationPitch = false;
+		bUseControllerRotationYaw = false;
+		bUseControllerRotationRoll = false;
+		
+		// Configure character movement
+		GetCharacterMovement() -> bOrientRotationToMovement = true;
+		GetCharacterMovement() -> RotationRate = FRotator(0.0f, 500.0f, 0.0f);
+		
+		GetCharacterMovement() -> JumpZVelocity = 500.0f;
+		GetCharacterMovement() -> AirControl = 0.35f;
+		GetCharacterMovement() -> MaxWalkSpeed = 600.0f;
+		GetCharacterMovement() -> MinAnalogWalkSpeed = 20.0f;
+		GetCharacterMovement() -> BrakingDecelerationWalking = 2000.0f;
+		GetCharacterMovement() -> BrakingDecelerationFalling = 1500.0f;
 	
-	// Configure character movement
-	GetCharacterMovement() -> bOrientRotationToMovement = true;
-	GetCharacterMovement() -> RotationRate = FRotator(0.0f, 500.0f, 0.0f);
-	
-	GetCharacterMovement() -> JumpZVelocity = 500.0f;
-	GetCharacterMovement() -> AirControl = 0.35f;
-	GetCharacterMovement() -> MaxWalkSpeed = 600.0f;
-	GetCharacterMovement() -> MinAnalogWalkSpeed = 20.0f;
-	GetCharacterMovement() -> BrakingDecelerationWalking = 2000.0f;
-	GetCharacterMovement() -> BrakingDecelerationFalling = 1500.0f;
+	// End of default values
 }
 
 // Called when the game starts or when spawned
@@ -66,9 +70,9 @@ void ACppPlayer::OnRep_PlayerState()
 	}
 }
 
-void ACppPlayer::PossessedBy(AController* instigate_me_)
+void ACppPlayer::PossessedBy(AController* Instigate_Me)
 {
-	Super::PossessedBy(instigate_me_);
+	Super::PossessedBy(Instigate_Me);
 	if (AbilitySystemComponent)
 	{
 		AbilitySystemComponent -> InitAbilityActorInfo(this, this);

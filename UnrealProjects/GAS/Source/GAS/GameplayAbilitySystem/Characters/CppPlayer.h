@@ -18,7 +18,7 @@ public:
 	ACppPlayer();
 	
 	// Ability System Component
-	UPROPERTY(VisibleAnywhere, BlueprintReadWrite, Category = "AbilitySystem")
+	UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category = "AbilitySystem")
 	UAbilitySystemComponent* AbilitySystemComponent;
 
 protected:
@@ -28,7 +28,7 @@ protected:
 	// Called when the game starts or when spawned
 	virtual void BeginPlay() override;
 	
-	virtual void PossessedBy(AController* instigate_me_) override;
+	virtual void PossessedBy(AController* Instigate_Me) override;
 	
 	virtual void OnRep_PlayerState() override;
 
