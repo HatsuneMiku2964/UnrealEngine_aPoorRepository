@@ -4315,6 +4315,8 @@
   ../Plugins/Runtime/GameplayAbilities/Source/GameplayAbilities/Public/AbilitySystemReplicationProxyInterface.h \
   ../Plugins/Runtime/GameplayAbilities/Intermediate/Build/Mac/UnrealEditor/Inc/GameplayAbilities/UHT/AbilitySystemReplicationProxyInterface.generated.h \
   ../Plugins/Runtime/GameplayAbilities/Intermediate/Build/Mac/UnrealEditor/Inc/GameplayAbilities/UHT/AbilitySystemComponent.generated.h \
+  /Users/sakura/UnrealEngine/Gits/Repos/UnrealEngine_aPoorRepository/UnrealProjects/GAS/Source/GAS/GameplayAbilitySystem/Attributes/AttributeSets.h \
+  /Users/sakura/UnrealEngine/Gits/Repos/UnrealEngine_aPoorRepository/UnrealProjects/GAS/Intermediate/Build/Mac/UnrealEditor/Inc/GAS/UHT/AttributeSets.generated.h \
   /Users/sakura/UnrealEngine/Gits/Repos/UnrealEngine_aPoorRepository/UnrealProjects/GAS/Intermediate/Build/Mac/UnrealEditor/Inc/GAS/UHT/CppPlayer.generated.h \
   Runtime/Engine/Classes/Components/CapsuleComponent.h \
   Runtime/Engine/Classes/Components/ShapeComponent.h \

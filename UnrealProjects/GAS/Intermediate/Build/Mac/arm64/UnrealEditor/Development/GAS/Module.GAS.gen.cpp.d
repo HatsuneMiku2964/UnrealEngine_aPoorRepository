@@ -4199,63 +4199,41 @@
   /Users/Shared/Epic\ Games/UE_5.7/Engine/Source/../Intermediate/Build/Mac/UnrealEditor/Inc/ToolMenus/UHT/ToolMenus.generated.h \
   /Users/sakura/UnrealEngine/Gits/Repos/UnrealEngine_aPoorRepository/UnrealProjects/GAS/Intermediate/Build/Mac/arm64/UnrealEditor/Development/GAS/Module.GAS.gen.cpp \
   /Users/sakura/UnrealEngine/Gits/Repos/UnrealEngine_aPoorRepository/UnrealProjects/GAS/Intermediate/Build/Mac/arm64/UnrealEditor/Development/GAS/Definitions.GAS.h \
-  /Users/sakura/UnrealEngine/Gits/Repos/UnrealEngine_aPoorRepository/UnrealProjects/GAS/Intermediate/Build/Mac/UnrealEditor/Inc/GAS/UHT/CppPlayer.gen.cpp \
+  /Users/sakura/UnrealEngine/Gits/Repos/UnrealEngine_aPoorRepository/UnrealProjects/GAS/Intermediate/Build/Mac/UnrealEditor/Inc/GAS/UHT/AttributeSets.gen.cpp \
   Runtime/CoreUObject/Public/UObject/GeneratedCppIncludes.h \
-  /Users/sakura/UnrealEngine/Gits/Repos/UnrealEngine_aPoorRepository/UnrealProjects/GAS/Source/GAS/GameplayAbilitySystem/Characters/CppPlayer.h \
+  /Users/sakura/UnrealEngine/Gits/Repos/UnrealEngine_aPoorRepository/UnrealProjects/GAS/Source/GAS/GameplayAbilitySystem/Attributes/AttributeSets.h \
   Runtime/Core/Public/CoreMinimal.h \
-  Runtime/Engine/Classes/GameFramework/Character.h \
-  Runtime/CoreUObject/Public/UObject/ObjectMacros.h \
-  Runtime/CoreUObject/Public/UObject/UObjectGlobals.h \
+  ../Plugins/Runtime/GameplayAbilities/Source/GameplayAbilities/Public/AttributeSet.h \
   Runtime/CoreUObject/Public/Templates/SubclassOf.h \
-  Runtime/CoreUObject/Public/UObject/CoreNet.h \
+  Runtime/CoreUObject/Public/UObject/UnrealType.h \
+  Runtime/Engine/Classes/Engine/DataTable.h \
+  ../Plugins/Runtime/GameplayAbilities/Intermediate/Build/Mac/UnrealEditor/Inc/GameplayAbilities/UHT/AttributeSet.generated.h \
+  Runtime/CoreUObject/Public/UObject/ObjectMacros.h \
+  Runtime/CoreUObject/Public/UObject/ScriptMacros.h \
+  ../Plugins/Runtime/GameplayAbilities/Source/GameplayAbilities/Public/AbilitySystemComponent.h \
   Runtime/Engine/Classes/Engine/NetSerialization.h \
   Runtime/Engine/Classes/Engine/EngineTypes.h \
-  Runtime/Engine/Classes/Components/ActorComponent.h \
-  Runtime/Engine/Classes/GameFramework/Actor.h \
-  Runtime/Engine/Classes/GameFramework/Pawn.h \
-  Runtime/Engine/Classes/GameFramework/CharacterMovementReplication.h \
-  Runtime/CoreUObject/Public/UObject/Object.h \
-  Runtime/Core/Public/Serialization/BitWriter.h \
-  Runtime/Core/Public/Containers/BitArray.h \
-  Runtime/Net/Core/Public/Net/Core/NetToken/NetTokenExportContext.h \
-  Runtime/Core/Public/Containers/Array.h \
-  Runtime/Net/Core/Public/Net/Core/NetToken/NetToken.h \
-  Runtime/Engine/Classes/Components/PrimitiveComponent.h \
-  Runtime/Net/Iris/Public/Iris/Serialization/IrisObjectReferencePackageMap.h \
-  ../Intermediate/Build/Mac/UnrealEditor/Inc/IrisCore/UHT/IrisObjectReferencePackageMap.generated.h \
-  Runtime/CoreUObject/Public/UObject/ScriptMacros.h \
-  ../Intermediate/Build/Mac/UnrealEditor/Inc/Engine/UHT/CharacterMovementReplication.generated.h \
-  Runtime/Engine/Classes/Animation/AnimationAsset.h \
-  Runtime/Engine/Classes/GameFramework/RootMotionSource.h \
-  Runtime/Core/Public/HAL/IConsoleManager.h \
-  Runtime/CoreUObject/Public/UObject/Class.h \
-  ../Intermediate/Build/Mac/UnrealEditor/Inc/Engine/UHT/RootMotionSource.generated.h \
-  ../Intermediate/Build/Mac/UnrealEditor/Inc/Engine/UHT/Character.generated.h \
-  ../Plugins/Runtime/GameplayAbilities/Source/GameplayAbilities/Public/AbilitySystemInterface.h \
-  Runtime/CoreUObject/Public/UObject/Interface.h \
-  ../Plugins/Runtime/GameplayAbilities/Intermediate/Build/Mac/UnrealEditor/Inc/GameplayAbilities/UHT/AbilitySystemInterface.generated.h \
-  ../Plugins/Runtime/GameplayAbilities/Source/GameplayAbilities/Public/AbilitySystemComponent.h \
   Runtime/Engine/Classes/Engine/TimerHandle.h \
   Runtime/GameplayTags/Classes/GameplayTagContainer.h \
   Runtime/Core/Public/Stats/Stats.h \
+  Runtime/CoreUObject/Public/UObject/Object.h \
+  Runtime/CoreUObject/Public/UObject/Class.h \
   Runtime/Core/Public/Misc/ComparisonUtility.h \
   Runtime/Core/Public/Containers/StringFwd.h \
   Runtime/Core/Public/Containers/StringView.h \
   Runtime/Core/Public/HAL/Platform.h \
   Runtime/Core/Public/UObject/NameTypes.h \
   ../Intermediate/Build/Mac/UnrealEditor/Inc/GameplayTags/UHT/GameplayTagContainer.generated.h \
-  ../Plugins/Runtime/GameplayAbilities/Source/GameplayAbilities/Public/AttributeSet.h \
-  Runtime/CoreUObject/Public/UObject/UnrealType.h \
-  Runtime/Engine/Classes/Engine/DataTable.h \
-  ../Plugins/Runtime/GameplayAbilities/Intermediate/Build/Mac/UnrealEditor/Inc/GameplayAbilities/UHT/AttributeSet.generated.h \
   Runtime/Engine/Public/EngineDefines.h \
   ../Plugins/Runtime/GameplayAbilities/Source/GameplayAbilities/Public/GameplayPrediction.h \
   Runtime/Engine/Classes/Engine/NetDriver.h \
   Runtime/Net/Core/Classes/Net/Serialization/FastArraySerializer.h \
   Runtime/Core/Public/Serialization/BitReader.h \
   Runtime/Core/Public/Misc/NetworkGuid.h \
+  Runtime/CoreUObject/Public/UObject/CoreNet.h \
   Runtime/Core/Public/Containers/ArrayView.h \
   Runtime/Net/Core/Public/Net/Core/Misc/GuidReferences.h \
+  Runtime/Core/Public/Containers/Array.h \
   Runtime/Core/Public/Containers/Map.h \
   Runtime/Core/Public/Containers/Set.h Runtime/Core/Public/CoreTypes.h \
   Runtime/Core/Public/Templates/Tuple.h \
@@ -4265,17 +4243,20 @@
   Runtime/Core/Public/Delegates/Delegate.h \
   Runtime/CoreUObject/Public/UObject/ObjectKey.h \
   Runtime/Net/Core/Public/Net/Core/NetCoreModule.h \
+  Runtime/Core/Public/HAL/IConsoleManager.h \
   Runtime/Core/Public/Templates/EnableIf.h \
   Runtime/Core/Public/ProfilingDebugging/CsvProfiler.h \
   ../Intermediate/Build/Mac/UnrealEditor/Inc/NetCore/UHT/FastArraySerializer.generated.h \
   Runtime/Core/Public/Templates/TypeCompatibleBytes.h \
   ../Plugins/Runtime/GameplayAbilities/Intermediate/Build/Mac/UnrealEditor/Inc/GameplayAbilities/UHT/GameplayPrediction.generated.h \
   ../Plugins/Runtime/GameplayAbilities/Source/GameplayAbilities/Public/GameplayCueInterface.h \
+  Runtime/CoreUObject/Public/UObject/Interface.h \
   ../Plugins/Runtime/GameplayAbilities/Source/GameplayAbilities/Public/GameplayEffectTypes.h \
   ../Plugins/Runtime/GameplayAbilities/Source/GameplayAbilities/Public/ActiveGameplayEffectHandle.h \
   ../Plugins/Runtime/GameplayAbilities/Intermediate/Build/Mac/UnrealEditor/Inc/GameplayAbilities/UHT/ActiveGameplayEffectHandle.generated.h \
   ../Plugins/Runtime/GameplayAbilities/Source/GameplayAbilities/Public/GameplayEffectAttributeCaptureDefinition.h \
   ../Plugins/Runtime/GameplayAbilities/Intermediate/Build/Mac/UnrealEditor/Inc/GameplayAbilities/UHT/GameplayEffectAttributeCaptureDefinition.generated.h \
+  Runtime/Engine/Classes/GameFramework/Actor.h \
   Runtime/PhysicsCore/Public/PhysicalMaterials/PhysicalMaterial.h \
   ../Plugins/Runtime/GameplayAbilities/Intermediate/Build/Mac/UnrealEditor/Inc/GameplayAbilities/UHT/GameplayEffectTypes.generated.h \
   ../Plugins/Runtime/GameplayAbilities/Intermediate/Build/Mac/UnrealEditor/Inc/GameplayAbilities/UHT/GameplayCueInterface.generated.h \
@@ -4299,6 +4280,7 @@
   ../Plugins/Runtime/GameplayAbilities/Intermediate/Build/Mac/UnrealEditor/Inc/GameplayAbilities/UHT/GameplayEffect.generated.h \
   Runtime/GameplayTasks/Classes/GameplayTasksComponent.h \
   Runtime/CoreUObject/Public/UObject/ScriptInterface.h \
+  Runtime/Engine/Classes/Components/ActorComponent.h \
   Runtime/GameplayTasks/Classes/GameplayTaskOwnerInterface.h \
   Runtime/GameplayTasks/Classes/GameplayTask.h \
   Runtime/GameplayTasks/Classes/GameplayTaskResource.h \
@@ -4317,5 +4299,26 @@
   ../Plugins/Runtime/GameplayAbilities/Source/GameplayAbilities/Public/AbilitySystemReplicationProxyInterface.h \
   ../Plugins/Runtime/GameplayAbilities/Intermediate/Build/Mac/UnrealEditor/Inc/GameplayAbilities/UHT/AbilitySystemReplicationProxyInterface.generated.h \
   ../Plugins/Runtime/GameplayAbilities/Intermediate/Build/Mac/UnrealEditor/Inc/GameplayAbilities/UHT/AbilitySystemComponent.generated.h \
+  /Users/sakura/UnrealEngine/Gits/Repos/UnrealEngine_aPoorRepository/UnrealProjects/GAS/Intermediate/Build/Mac/UnrealEditor/Inc/GAS/UHT/AttributeSets.generated.h \
+  /Users/sakura/UnrealEngine/Gits/Repos/UnrealEngine_aPoorRepository/UnrealProjects/GAS/Intermediate/Build/Mac/UnrealEditor/Inc/GAS/UHT/CppPlayer.gen.cpp \
+  /Users/sakura/UnrealEngine/Gits/Repos/UnrealEngine_aPoorRepository/UnrealProjects/GAS/Source/GAS/GameplayAbilitySystem/Characters/CppPlayer.h \
+  Runtime/Engine/Classes/GameFramework/Character.h \
+  Runtime/CoreUObject/Public/UObject/UObjectGlobals.h \
+  Runtime/Engine/Classes/GameFramework/Pawn.h \
+  Runtime/Engine/Classes/GameFramework/CharacterMovementReplication.h \
+  Runtime/Core/Public/Serialization/BitWriter.h \
+  Runtime/Core/Public/Containers/BitArray.h \
+  Runtime/Net/Core/Public/Net/Core/NetToken/NetTokenExportContext.h \
+  Runtime/Net/Core/Public/Net/Core/NetToken/NetToken.h \
+  Runtime/Engine/Classes/Components/PrimitiveComponent.h \
+  Runtime/Net/Iris/Public/Iris/Serialization/IrisObjectReferencePackageMap.h \
+  ../Intermediate/Build/Mac/UnrealEditor/Inc/IrisCore/UHT/IrisObjectReferencePackageMap.generated.h \
+  ../Intermediate/Build/Mac/UnrealEditor/Inc/Engine/UHT/CharacterMovementReplication.generated.h \
+  Runtime/Engine/Classes/Animation/AnimationAsset.h \
+  Runtime/Engine/Classes/GameFramework/RootMotionSource.h \
+  ../Intermediate/Build/Mac/UnrealEditor/Inc/Engine/UHT/RootMotionSource.generated.h \
+  ../Intermediate/Build/Mac/UnrealEditor/Inc/Engine/UHT/Character.generated.h \
+  ../Plugins/Runtime/GameplayAbilities/Source/GameplayAbilities/Public/AbilitySystemInterface.h \
+  ../Plugins/Runtime/GameplayAbilities/Intermediate/Build/Mac/UnrealEditor/Inc/GameplayAbilities/UHT/AbilitySystemInterface.generated.h \
   /Users/sakura/UnrealEngine/Gits/Repos/UnrealEngine_aPoorRepository/UnrealProjects/GAS/Intermediate/Build/Mac/UnrealEditor/Inc/GAS/UHT/CppPlayer.generated.h \
   /Users/sakura/UnrealEngine/Gits/Repos/UnrealEngine_aPoorRepository/UnrealProjects/GAS/Intermediate/Build/Mac/UnrealEditor/Inc/GAS/UHT/GAS.init.gen.cpp

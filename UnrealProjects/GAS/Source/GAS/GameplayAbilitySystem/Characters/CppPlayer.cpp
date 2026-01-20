@@ -4,6 +4,8 @@
 #include "CppPlayer.h"
 #include "Components/CapsuleComponent.h"
 #include "GameFramework/CharacterMovementComponent.h"
+#include "GAS/GameplayAbilitySystem/Attributes/AttributeSets.h"
+
 
 // Sets default values
 ACppPlayer::ACppPlayer()
@@ -38,6 +40,9 @@ ACppPlayer::ACppPlayer()
 		GetCharacterMovement() -> BrakingDecelerationFalling = 1500.0f;
 	
 	// End of default values
+	
+	// Add the attribute set
+	AttributeSet = CreateDefaultSubobject<UAttributeSets>(TEXT("AttributeSet"));
 }
 
 // Called when the game starts or when spawned

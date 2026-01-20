@@ -18,6 +18,7 @@ GAMEPLAYABILITIES_API UClass* Z_Construct_UClass_UAbilitySystemInterface_NoRegis
 GAMEPLAYABILITIES_API UEnum* Z_Construct_UEnum_GameplayAbilities_EGameplayEffectReplicationMode();
 GAS_API UClass* Z_Construct_UClass_ACppPlayer();
 GAS_API UClass* Z_Construct_UClass_ACppPlayer_NoRegister();
+GAS_API UClass* Z_Construct_UClass_UAttributeSets_NoRegister();
 UPackage* Z_Construct_UPackage__Script_GAS();
 // ********** End Cross Module References **********************************************************
 
@@ -56,8 +57,8 @@ struct Z_Construct_UClass_ACppPlayer_Statics
 #if WITH_METADATA
 	static constexpr UECodeGen_Private::FMetaDataPairParam Class_MetaDataParams[] = {
 		{ "HideCategories", "Navigation" },
-		{ "IncludePath", "GameplayAbilitySystem/Characters/CppPlayer.h" },
-		{ "ModuleRelativePath", "GameplayAbilitySystem/Characters/CppPlayer.h" },
+		{ "IncludePath", "Characters/CppPlayer.h" },
+		{ "ModuleRelativePath", "Characters/CppPlayer.h" },
 	};
 	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_AbilitySystemComponent_MetaData[] = {
 		{ "Category", "AbilitySystem" },
@@ -65,19 +66,25 @@ struct Z_Construct_UClass_ACppPlayer_Statics
 		{ "Comment", "// Ability System Component\n" },
 #endif
 		{ "EditInline", "true" },
-		{ "ModuleRelativePath", "GameplayAbilitySystem/Characters/CppPlayer.h" },
+		{ "ModuleRelativePath", "Characters/CppPlayer.h" },
 #if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Ability System Component" },
 #endif
 	};
+	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_AttributeSet_MetaData[] = {
+		{ "Category", "AbilitySystem" },
+		{ "EditInline", "true" },
+		{ "ModuleRelativePath", "Characters/CppPlayer.h" },
+	};
 	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_AscReplicationMode_MetaData[] = {
 		{ "Category", "AbilitySystem" },
-		{ "ModuleRelativePath", "GameplayAbilitySystem/Characters/CppPlayer.h" },
+		{ "ModuleRelativePath", "Characters/CppPlayer.h" },
 	};
 #endif // WITH_METADATA
 
 // ********** Begin Class ACppPlayer constinit property declarations *******************************
 	static const UECodeGen_Private::FObjectPropertyParams NewProp_AbilitySystemComponent;
+	static const UECodeGen_Private::FObjectPropertyParams NewProp_AttributeSet;
 	static const UECodeGen_Private::FBytePropertyParams NewProp_AscReplicationMode_Underlying;
 	static const UECodeGen_Private::FEnumPropertyParams NewProp_AscReplicationMode;
 	static const UECodeGen_Private::FPropertyParamsBase* const PropPointers[];
@@ -92,10 +99,12 @@ struct Z_Construct_UClass_ACppPlayer_Statics
 
 // ********** Begin Class ACppPlayer Property Definitions ******************************************
 const UECodeGen_Private::FObjectPropertyParams Z_Construct_UClass_ACppPlayer_Statics::NewProp_AbilitySystemComponent = { "AbilitySystemComponent", nullptr, (EPropertyFlags)0x00100000000a001d, UECodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(ACppPlayer, AbilitySystemComponent), Z_Construct_UClass_UAbilitySystemComponent_NoRegister, METADATA_PARAMS(UE_ARRAY_COUNT(NewProp_AbilitySystemComponent_MetaData), NewProp_AbilitySystemComponent_MetaData) };
+const UECodeGen_Private::FObjectPropertyParams Z_Construct_UClass_ACppPlayer_Statics::NewProp_AttributeSet = { "AttributeSet", nullptr, (EPropertyFlags)0x00100000000a001d, UECodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(ACppPlayer, AttributeSet), Z_Construct_UClass_UAttributeSets_NoRegister, METADATA_PARAMS(UE_ARRAY_COUNT(NewProp_AttributeSet_MetaData), NewProp_AttributeSet_MetaData) };
 const UECodeGen_Private::FBytePropertyParams Z_Construct_UClass_ACppPlayer_Statics::NewProp_AscReplicationMode_Underlying = { "UnderlyingType", nullptr, (EPropertyFlags)0x0000000000000000, UECodeGen_Private::EPropertyGenFlags::Byte, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, 0, nullptr, METADATA_PARAMS(0, nullptr) };
 const UECodeGen_Private::FEnumPropertyParams Z_Construct_UClass_ACppPlayer_Statics::NewProp_AscReplicationMode = { "AscReplicationMode", nullptr, (EPropertyFlags)0x0020080000000005, UECodeGen_Private::EPropertyGenFlags::Enum, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(ACppPlayer, AscReplicationMode), Z_Construct_UEnum_GameplayAbilities_EGameplayEffectReplicationMode, METADATA_PARAMS(UE_ARRAY_COUNT(NewProp_AscReplicationMode_MetaData), NewProp_AscReplicationMode_MetaData) }; // 3513395660
 const UECodeGen_Private::FPropertyParamsBase* const Z_Construct_UClass_ACppPlayer_Statics::PropPointers[] = {
 	(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ACppPlayer_Statics::NewProp_AbilitySystemComponent,
+	(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ACppPlayer_Statics::NewProp_AttributeSet,
 	(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ACppPlayer_Statics::NewProp_AscReplicationMode_Underlying,
 	(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ACppPlayer_Statics::NewProp_AscReplicationMode,
 };
@@ -143,10 +152,10 @@ ACppPlayer::~ACppPlayer() {}
 struct Z_CompiledInDeferFile_FID_sakura_UnrealEngine_Gits_Repos_UnrealEngine_aPoorRepository_UnrealProjects_GAS_Source_GAS_GameplayAbilitySystem_Characters_CppPlayer_h__Script_GAS_Statics
 {
 	static constexpr FClassRegisterCompiledInInfo ClassInfo[] = {
-		{ Z_Construct_UClass_ACppPlayer, ACppPlayer::StaticClass, TEXT("ACppPlayer"), &Z_Registration_Info_UClass_ACppPlayer, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(ACppPlayer), 1538815705U) },
+		{ Z_Construct_UClass_ACppPlayer, ACppPlayer::StaticClass, TEXT("ACppPlayer"), &Z_Registration_Info_UClass_ACppPlayer, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(ACppPlayer), 112169794U) },
 	};
 }; // Z_CompiledInDeferFile_FID_sakura_UnrealEngine_Gits_Repos_UnrealEngine_aPoorRepository_UnrealProjects_GAS_Source_GAS_GameplayAbilitySystem_Characters_CppPlayer_h__Script_GAS_Statics 
-static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_sakura_UnrealEngine_Gits_Repos_UnrealEngine_aPoorRepository_UnrealProjects_GAS_Source_GAS_GameplayAbilitySystem_Characters_CppPlayer_h__Script_GAS_3567382970{
+static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_sakura_UnrealEngine_Gits_Repos_UnrealEngine_aPoorRepository_UnrealProjects_GAS_Source_GAS_GameplayAbilitySystem_Characters_CppPlayer_h__Script_GAS_4081789208{
 	TEXT("/Script/GAS"),
 	Z_CompiledInDeferFile_FID_sakura_UnrealEngine_Gits_Repos_UnrealEngine_aPoorRepository_UnrealProjects_GAS_Source_GAS_GameplayAbilitySystem_Characters_CppPlayer_h__Script_GAS_Statics::ClassInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_sakura_UnrealEngine_Gits_Repos_UnrealEngine_aPoorRepository_UnrealProjects_GAS_Source_GAS_GameplayAbilitySystem_Characters_CppPlayer_h__Script_GAS_Statics::ClassInfo),
 	nullptr, 0,

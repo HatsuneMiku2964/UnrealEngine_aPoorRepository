@@ -8,16 +8,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="669518f8-deb6-4966-a271-8a2832a0271e" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/Source/GAS/GameplayAbilitySystem/Attributes/AttributeSets.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Source/GAS/GameplayAbilitySystem/Attributes/AttributeSets.h" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.GAS.dir/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.GAS.dir/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Binaries/Mac/UnrealEditor.modules" beforeDir="false" afterPath="$PROJECT_DIR$/Binaries/Mac/UnrealEditor.modules" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Config/DefaultEditor.ini" beforeDir="false" afterPath="$PROJECT_DIR$/Config/DefaultEditor.ini" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Config/DefaultGameplayTags.ini" beforeDir="false" afterPath="$PROJECT_DIR$/Config/DefaultGameplayTags.ini" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/Characters/Mannequins/Meshes/SKM_Manny_Simple.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Characters/Mannequins/Meshes/SKM_Manny_Simple.uasset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/GameplayAbilitySystem/Abilities/GA_Dash.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/GameplayAbilitySystem/Abilities/GA_Dash.uasset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/GameplayAbilitySystem/Characters/BP_Player.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/GameplayAbilitySystem/Characters/BP_Player.uasset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Intermediate/Build/BuildRules/GASModuleRulesManifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/Build/BuildRules/GASModuleRulesManifest.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Intermediate/Build/BuildRulesProjects/GASModuleRules/GASModuleRules.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/Build/BuildRulesProjects/GASModuleRules/GASModuleRules.csproj" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Intermediate/Build/Mac/ActionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/Build/Mac/ActionHistory.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Intermediate/Build/Mac/GASEditor/Development/GASEditor.uhtmanifest" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/Build/Mac/GASEditor/Development/GASEditor.uhtmanifest" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Intermediate/Build/Mac/UnrealEditor/Inc/GAS/UHT/CppPlayer.gen.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/Build/Mac/UnrealEditor/Inc/GAS/UHT/CppPlayer.gen.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Intermediate/Build/Mac/UnrealEditor/Inc/GAS/UHT/CppPlayer.generated.h" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/Build/Mac/UnrealEditor/Inc/GAS/UHT/CppPlayer.generated.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Intermediate/Build/Mac/UnrealEditor/Inc/GAS/UHT/GAS.init.gen.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/Build/Mac/UnrealEditor/Inc/GAS/UHT/GAS.init.gen.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Intermediate/Build/Mac/UnrealEditor/Inc/GAS/UHT/Timestamp" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/Build/Mac/UnrealEditor/Inc/GAS/UHT/Timestamp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Intermediate/Build/Mac/arm64/GASEditor/Development/Core/SharedPCH.Core.Cpp20.h.gch.rsp" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/Build/Mac/arm64/GASEditor/Development/Core/SharedPCH.Core.Cpp20.h.gch.rsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Intermediate/Build/Mac/arm64/GASEditor/Development/Core/SharedPCH.Core.Cpp20.h.gch.rsp.old" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/Build/Mac/arm64/GASEditor/Development/Core/SharedPCH.Core.Cpp20.h.gch.rsp.old" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Intermediate/Build/Mac/arm64/GASEditor/Development/Core/SharedPCH.Core.Project.ValApi.ValExpApi.Cpp20.InclOrderUnreal5_4.h.gch.rsp" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/Build/Mac/arm64/GASEditor/Development/Core/SharedPCH.Core.Project.ValApi.ValExpApi.Cpp20.InclOrderUnreal5_4.h.gch.rsp" afterDir="false" />
@@ -35,7 +34,6 @@
       <change beforePath="$PROJECT_DIR$/Intermediate/Build/Mac/arm64/GASEditor/Development/Engine/SharedPCH.Engine.Cpp20.h.gch.rsp.old" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/Build/Mac/arm64/GASEditor/Development/Engine/SharedPCH.Engine.Cpp20.h.gch.rsp.old" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Intermediate/Build/Mac/arm64/GASEditor/Development/Engine/SharedPCH.Engine.Project.ValApi.ValExpApi.Cpp20.InclOrderUnreal5_4.h.gch.rsp" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/Build/Mac/arm64/GASEditor/Development/Engine/SharedPCH.Engine.Project.ValApi.ValExpApi.Cpp20.InclOrderUnreal5_4.h.gch.rsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Intermediate/Build/Mac/arm64/GASEditor/Development/Engine/SharedPCH.Engine.Project.ValApi.ValExpApi.Cpp20.InclOrderUnreal5_4.h.gch.rsp.old" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/Build/Mac/arm64/GASEditor/Development/Engine/SharedPCH.Engine.Project.ValApi.ValExpApi.Cpp20.InclOrderUnreal5_4.h.gch.rsp.old" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Intermediate/Build/Mac/arm64/GASEditor/Development/HotReloadState.bin" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Intermediate/Build/Mac/arm64/GASEditor/Development/Makefile.bin" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/Build/Mac/arm64/GASEditor/Development/Makefile.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Intermediate/Build/Mac/arm64/GASEditor/Development/Slate/SharedPCH.Slate.Cpp20.h.gch.rsp" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/Build/Mac/arm64/GASEditor/Development/Slate/SharedPCH.Slate.Cpp20.h.gch.rsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Intermediate/Build/Mac/arm64/GASEditor/Development/Slate/SharedPCH.Slate.Cpp20.h.gch.rsp.old" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/Build/Mac/arm64/GASEditor/Development/Slate/SharedPCH.Slate.Cpp20.h.gch.rsp.old" afterDir="false" />
@@ -43,18 +41,27 @@
       <change beforePath="$PROJECT_DIR$/Intermediate/Build/Mac/arm64/GASEditor/Development/Slate/SharedPCH.Slate.Project.ValApi.ValExpApi.Cpp20.InclOrderUnreal5_4.h.gch.rsp.old" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/Build/Mac/arm64/GASEditor/Development/Slate/SharedPCH.Slate.Project.ValApi.ValExpApi.Cpp20.InclOrderUnreal5_4.h.gch.rsp.old" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Intermediate/Build/Mac/arm64/GASEditor/Development/UnrealEd/SharedPCH.UnrealEd.Cpp20.h.gch.rsp" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/Build/Mac/arm64/GASEditor/Development/UnrealEd/SharedPCH.UnrealEd.Cpp20.h.gch.rsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Intermediate/Build/Mac/arm64/GASEditor/Development/UnrealEd/SharedPCH.UnrealEd.Cpp20.h.gch.rsp.old" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/Build/Mac/arm64/GASEditor/Development/UnrealEd/SharedPCH.UnrealEd.Cpp20.h.gch.rsp.old" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Intermediate/Build/Mac/arm64/UnrealGame/Development/GAS/Definitions.h" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/Build/Mac/arm64/UnrealGame/Development/GAS/Definitions.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Intermediate/CachedAssetRegistry_0.bin" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/CachedAssetRegistry_0.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Intermediate/Build/Mac/arm64/UnrealEditor/ActionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/Build/Mac/arm64/UnrealEditor/ActionHistory.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Intermediate/Build/Mac/arm64/UnrealEditor/Development/GAS/CppPlayer.cpp.d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Intermediate/Build/Mac/arm64/UnrealEditor/Development/GAS/CppPlayer.cpp.o.rsp" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/Build/Mac/arm64/UnrealEditor/Development/GAS/CppPlayer.cpp.o.rsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Intermediate/Build/Mac/arm64/UnrealEditor/Development/GAS/CppPlayer.cpp.o.rsp.old" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/Build/Mac/arm64/UnrealEditor/Development/GAS/CppPlayer.cpp.o.rsp.old" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Intermediate/Build/Mac/arm64/UnrealEditor/Development/GAS/Definitions.GAS.h" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/Build/Mac/arm64/UnrealEditor/Development/GAS/Definitions.GAS.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Intermediate/Build/Mac/arm64/UnrealEditor/Development/GAS/Definitions.GAS.h.old" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/Build/Mac/arm64/UnrealEditor/Development/GAS/Definitions.GAS.h.old" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Intermediate/Build/Mac/arm64/UnrealEditor/Development/GAS/Module.GAS.gen.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/Build/Mac/arm64/UnrealEditor/Development/GAS/Module.GAS.gen.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Intermediate/Build/Mac/arm64/UnrealEditor/Development/GAS/Module.GAS.gen.cpp.d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Intermediate/Build/Mac/arm64/UnrealEditor/Development/GAS/Module.GAS.gen.cpp.o.rsp" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/Build/Mac/arm64/UnrealEditor/Development/GAS/Module.GAS.gen.cpp.o.rsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Intermediate/Build/Mac/arm64/UnrealEditor/Development/GAS/Module.GAS.gen.cpp.o.rsp.old" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/Build/Mac/arm64/UnrealEditor/Development/GAS/Module.GAS.gen.cpp.o.rsp.old" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Intermediate/Build/Mac/arm64/UnrealEditor/Development/GAS/PerModuleInline.gen.cpp.o.rsp" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/Build/Mac/arm64/UnrealEditor/Development/GAS/PerModuleInline.gen.cpp.o.rsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Intermediate/Build/Mac/arm64/UnrealEditor/Development/GAS/PerModuleInline.gen.cpp.o.rsp.old" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/Build/Mac/arm64/UnrealEditor/Development/GAS/PerModuleInline.gen.cpp.o.rsp.old" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Intermediate/Build/Mac/arm64/UnrealEditor/Development/GAS/UnrealEditor-GAS.dylib.rsp" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/Build/Mac/arm64/UnrealEditor/Development/GAS/UnrealEditor-GAS.dylib.rsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Intermediate/Build/Mac/arm64/UnrealEditor/Development/GAS/UnrealEditor-GAS.dylib.rsp.old" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/Build/Mac/arm64/UnrealEditor/Development/GAS/UnrealEditor-GAS.dylib.rsp.old" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Intermediate/Build/SourceFileCache.bin" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/Build/SourceFileCache.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Intermediate/Mac/Stubs/arm64/Development/UnrealEditor-GAS.dylib.rsp" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/Mac/Stubs/arm64/Development/UnrealEditor-GAS.dylib.rsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Intermediate/ProjectFiles/.Rider/Mac/Development/Editor/GAS.json" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/ProjectFiles/.Rider/Mac/Development/Editor/GAS.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Intermediate/ProjectFiles/ResponseFiles/Mac/GAS1.response" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/ProjectFiles/ResponseFiles/Mac/GAS1.response" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Saved/AutoScreenshot.png" beforeDir="false" afterPath="$PROJECT_DIR$/Saved/AutoScreenshot.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Saved/Config/MacEditor/EditorPerProjectUserSettings.ini" beforeDir="false" afterPath="$PROJECT_DIR$/Saved/Config/MacEditor/EditorPerProjectUserSettings.ini" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Saved/SourceControl/UncontrolledChangelists.json" beforeDir="false" afterPath="$PROJECT_DIR$/Saved/SourceControl/UncontrolledChangelists.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/GAS/GAS.Build.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/GAS/GAS.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/GAS/GAS.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/GAS/GameplayAbilitySystem/Characters/CppPlayer.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/GAS/GameplayAbilitySystem/Characters/CppPlayer.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Source/GAS/GameplayAbilitySystem/Characters/CppPlayer.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Source/GAS/GameplayAbilitySystem/Characters/CppPlayer.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Source/GAS/GameplayAbilitySystem/Characters/CppPlayer.h" beforeDir="false" afterPath="$PROJECT_DIR$/Source/GAS/GameplayAbilitySystem/Characters/CppPlayer.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Source/GAS/GameplayAbilitySystem/GAS.Build.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Source/GAS/GameplayAbilitySystem/GAS.Build.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -210,6 +217,8 @@
       <workItem from="1768913548957" duration="271000" />
       <workItem from="1768913829042" duration="22000" />
       <workItem from="1768913894198" duration="65000" />
+      <workItem from="1768920126182" duration="639000" />
+      <workItem from="1768920816248" duration="1856000" />
     </task>
     <servers />
   </component>
