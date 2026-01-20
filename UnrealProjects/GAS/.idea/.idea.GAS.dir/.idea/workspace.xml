@@ -10,22 +10,51 @@
     <list default="true" id="669518f8-deb6-4966-a271-8a2832a0271e" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.GAS.dir/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.GAS.dir/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Binaries/Mac/UnrealEditor.modules" beforeDir="false" afterPath="$PROJECT_DIR$/Binaries/Mac/UnrealEditor.modules" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/GameplayAbilitySystem/Characters/BP_Enemy_Base.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/GameplayAbilitySystem/Characters/BP_Enemy_Base.uasset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Config/DefaultEditor.ini" beforeDir="false" afterPath="$PROJECT_DIR$/Config/DefaultEditor.ini" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Config/DefaultGameplayTags.ini" beforeDir="false" afterPath="$PROJECT_DIR$/Config/DefaultGameplayTags.ini" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Characters/Mannequins/Meshes/SKM_Manny_Simple.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Characters/Mannequins/Meshes/SKM_Manny_Simple.uasset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/GameplayAbilitySystem/Abilities/GA_Dash.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/GameplayAbilitySystem/Abilities/GA_Dash.uasset" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Content/GameplayAbilitySystem/Characters/BP_Player.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/GameplayAbilitySystem/Characters/BP_Player.uasset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/__ExternalActors__/ThirdPerson/Lvl_ThirdPerson/C/UZ/MOUYKL55TISBFCO8WWOIVQ.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Intermediate/Build/BuildRules/GASModuleRulesManifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/Build/BuildRules/GASModuleRulesManifest.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Intermediate/Build/BuildRulesProjects/GASModuleRules/GASModuleRules.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/Build/BuildRulesProjects/GASModuleRules/GASModuleRules.csproj" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Intermediate/Build/Mac/ActionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/Build/Mac/ActionHistory.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Intermediate/Build/Mac/GASEditor/Development/GASEditor.uhtmanifest" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/Build/Mac/GASEditor/Development/GASEditor.uhtmanifest" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Intermediate/Build/Mac/arm64/GASEditor/Development/Core/SharedPCH.Core.Cpp20.h.gch.rsp" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/Build/Mac/arm64/GASEditor/Development/Core/SharedPCH.Core.Cpp20.h.gch.rsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Intermediate/Build/Mac/arm64/GASEditor/Development/Core/SharedPCH.Core.Cpp20.h.gch.rsp.old" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/Build/Mac/arm64/GASEditor/Development/Core/SharedPCH.Core.Cpp20.h.gch.rsp.old" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Intermediate/Build/Mac/arm64/GASEditor/Development/Core/SharedPCH.Core.Project.ValApi.ValExpApi.Cpp20.InclOrderUnreal5_4.h.gch.rsp" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/Build/Mac/arm64/GASEditor/Development/Core/SharedPCH.Core.Project.ValApi.ValExpApi.Cpp20.InclOrderUnreal5_4.h.gch.rsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Intermediate/Build/Mac/arm64/GASEditor/Development/Core/SharedPCH.Core.Project.ValApi.ValExpApi.Cpp20.InclOrderUnreal5_4.h.gch.rsp.old" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/Build/Mac/arm64/GASEditor/Development/Core/SharedPCH.Core.Project.ValApi.ValExpApi.Cpp20.InclOrderUnreal5_4.h.gch.rsp.old" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Intermediate/Build/Mac/arm64/GASEditor/Development/Core/SharedPCH.Core.RTTI.Cpp20.h.gch.rsp" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/Build/Mac/arm64/GASEditor/Development/Core/SharedPCH.Core.RTTI.Cpp20.h.gch.rsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Intermediate/Build/Mac/arm64/GASEditor/Development/Core/SharedPCH.Core.RTTI.Cpp20.h.gch.rsp.old" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/Build/Mac/arm64/GASEditor/Development/Core/SharedPCH.Core.RTTI.Cpp20.h.gch.rsp.old" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Intermediate/Build/Mac/arm64/GASEditor/Development/CoreUObject/SharedPCH.CoreUObject.Cpp20.h.gch.rsp" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/Build/Mac/arm64/GASEditor/Development/CoreUObject/SharedPCH.CoreUObject.Cpp20.h.gch.rsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Intermediate/Build/Mac/arm64/GASEditor/Development/CoreUObject/SharedPCH.CoreUObject.Cpp20.h.gch.rsp.old" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/Build/Mac/arm64/GASEditor/Development/CoreUObject/SharedPCH.CoreUObject.Cpp20.h.gch.rsp.old" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Intermediate/Build/Mac/arm64/GASEditor/Development/CoreUObject/SharedPCH.CoreUObject.Project.ValApi.ValExpApi.Cpp20.InclOrderUnreal5_4.h.gch.rsp" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/Build/Mac/arm64/GASEditor/Development/CoreUObject/SharedPCH.CoreUObject.Project.ValApi.ValExpApi.Cpp20.InclOrderUnreal5_4.h.gch.rsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Intermediate/Build/Mac/arm64/GASEditor/Development/CoreUObject/SharedPCH.CoreUObject.Project.ValApi.ValExpApi.Cpp20.InclOrderUnreal5_4.h.gch.rsp.old" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/Build/Mac/arm64/GASEditor/Development/CoreUObject/SharedPCH.CoreUObject.Project.ValApi.ValExpApi.Cpp20.InclOrderUnreal5_4.h.gch.rsp.old" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Intermediate/Build/Mac/arm64/GASEditor/Development/CoreUObject/SharedPCH.CoreUObject.RTTI.Cpp20.h.gch.rsp" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/Build/Mac/arm64/GASEditor/Development/CoreUObject/SharedPCH.CoreUObject.RTTI.Cpp20.h.gch.rsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Intermediate/Build/Mac/arm64/GASEditor/Development/CoreUObject/SharedPCH.CoreUObject.RTTI.Cpp20.h.gch.rsp.old" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/Build/Mac/arm64/GASEditor/Development/CoreUObject/SharedPCH.CoreUObject.RTTI.Cpp20.h.gch.rsp.old" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Intermediate/Build/Mac/arm64/GASEditor/Development/DependencyCache.bin" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/Build/Mac/arm64/GASEditor/Development/DependencyCache.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Intermediate/Build/Mac/arm64/GASEditor/Development/Engine/SharedPCH.Engine.Cpp20.h.gch.rsp" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/Build/Mac/arm64/GASEditor/Development/Engine/SharedPCH.Engine.Cpp20.h.gch.rsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Intermediate/Build/Mac/arm64/GASEditor/Development/Engine/SharedPCH.Engine.Cpp20.h.gch.rsp.old" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/Build/Mac/arm64/GASEditor/Development/Engine/SharedPCH.Engine.Cpp20.h.gch.rsp.old" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Intermediate/Build/Mac/arm64/GASEditor/Development/Engine/SharedPCH.Engine.Project.ValApi.ValExpApi.Cpp20.InclOrderUnreal5_4.h.gch.rsp" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/Build/Mac/arm64/GASEditor/Development/Engine/SharedPCH.Engine.Project.ValApi.ValExpApi.Cpp20.InclOrderUnreal5_4.h.gch.rsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Intermediate/Build/Mac/arm64/GASEditor/Development/Engine/SharedPCH.Engine.Project.ValApi.ValExpApi.Cpp20.InclOrderUnreal5_4.h.gch.rsp.old" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/Build/Mac/arm64/GASEditor/Development/Engine/SharedPCH.Engine.Project.ValApi.ValExpApi.Cpp20.InclOrderUnreal5_4.h.gch.rsp.old" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Intermediate/Build/Mac/arm64/GASEditor/Development/HotReloadState.bin" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Intermediate/Build/Mac/arm64/GASEditor/Development/Makefile.bin" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/Build/Mac/arm64/GASEditor/Development/Makefile.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Intermediate/Build/Mac/arm64/GASEditor/Development/Metadata-HotReload.dat" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/Build/Mac/arm64/GASEditor/Development/Metadata-HotReload.dat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Intermediate/Build/SourceFileCache.bin" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/Build/SourceFileCache.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Intermediate/Build/Mac/arm64/GASEditor/Development/Slate/SharedPCH.Slate.Cpp20.h.gch.rsp" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/Build/Mac/arm64/GASEditor/Development/Slate/SharedPCH.Slate.Cpp20.h.gch.rsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Intermediate/Build/Mac/arm64/GASEditor/Development/Slate/SharedPCH.Slate.Cpp20.h.gch.rsp.old" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/Build/Mac/arm64/GASEditor/Development/Slate/SharedPCH.Slate.Cpp20.h.gch.rsp.old" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Intermediate/Build/Mac/arm64/GASEditor/Development/Slate/SharedPCH.Slate.Project.ValApi.ValExpApi.Cpp20.InclOrderUnreal5_4.h.gch.rsp" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/Build/Mac/arm64/GASEditor/Development/Slate/SharedPCH.Slate.Project.ValApi.ValExpApi.Cpp20.InclOrderUnreal5_4.h.gch.rsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Intermediate/Build/Mac/arm64/GASEditor/Development/Slate/SharedPCH.Slate.Project.ValApi.ValExpApi.Cpp20.InclOrderUnreal5_4.h.gch.rsp.old" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/Build/Mac/arm64/GASEditor/Development/Slate/SharedPCH.Slate.Project.ValApi.ValExpApi.Cpp20.InclOrderUnreal5_4.h.gch.rsp.old" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Intermediate/Build/Mac/arm64/GASEditor/Development/UnrealEd/SharedPCH.UnrealEd.Cpp20.h.gch.rsp" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/Build/Mac/arm64/GASEditor/Development/UnrealEd/SharedPCH.UnrealEd.Cpp20.h.gch.rsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Intermediate/Build/Mac/arm64/GASEditor/Development/UnrealEd/SharedPCH.UnrealEd.Cpp20.h.gch.rsp.old" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/Build/Mac/arm64/GASEditor/Development/UnrealEd/SharedPCH.UnrealEd.Cpp20.h.gch.rsp.old" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Intermediate/Build/Mac/arm64/UnrealGame/Development/GAS/Definitions.h" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/Build/Mac/arm64/UnrealGame/Development/GAS/Definitions.h" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Intermediate/CachedAssetRegistry_0.bin" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/CachedAssetRegistry_0.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Intermediate/ProjectFiles/.Rider/Mac/Development/Editor/GAS.json" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/ProjectFiles/.Rider/Mac/Development/Editor/GAS.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Intermediate/ProjectFiles/ResponseFiles/Mac/GAS1.response" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/ProjectFiles/ResponseFiles/Mac/GAS1.response" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Saved/AutoScreenshot.png" beforeDir="false" afterPath="$PROJECT_DIR$/Saved/AutoScreenshot.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Saved/Autosaves/Game/GameplayAbilitySystem/Characters/BP_Player_Auto1.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Saved/Autosaves/Game/GameplayAbilitySystem/Characters/BP_Player_Auto1.uasset" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Saved/Config/MacEditor/EditorPerProjectUserSettings.ini" beforeDir="false" afterPath="$PROJECT_DIR$/Saved/Config/MacEditor/EditorPerProjectUserSettings.ini" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Saved/SourceControl/UncontrolledChangelists.json" beforeDir="false" afterPath="$PROJECT_DIR$/Saved/SourceControl/UncontrolledChangelists.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/GAS/GameplayAbilitySystem/Characters/CppPlayer.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Source/GAS/GameplayAbilitySystem/Characters/CppPlayer.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/GAS/GameplayAbilitySystem/Characters/CppPlayer.h" beforeDir="false" afterPath="$PROJECT_DIR$/Source/GAS/GameplayAbilitySystem/Characters/CppPlayer.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Source/GAS/GAS.Build.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Source/GAS/GAS.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Source/GAS/GAS.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Source/GAS/GameplayAbilitySystem/Characters/CppPlayer.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Source/GAS/GameplayAbilitySystem/Characters/CppPlayer.h" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -43,46 +72,54 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
   </component>
-  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
-  "lastFilter": {
-    "state": "OPEN",
-    "assignee": "HatsuneMiku2964"
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;HatsuneMiku2964&quot;
   }
-}]]></component>
-  <component name="GithubPullRequestsUISettings"><![CDATA[{
-  "selectedUrlAndAccountId": {
-    "url": "https://github.com/HatsuneMiku2964/UnrealEngine_aPoorRepository.git",
-    "accountId": "05382bb4-a8a7-4849-80d4-a5f7e1fbefcb"
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/HatsuneMiku2964/UnrealEngine_aPoorRepository.git&quot;,
+    &quot;accountId&quot;: &quot;05382bb4-a8a7-4849-80d4-a5f7e1fbefcb&quot;
   }
-}]]></component>
+}</component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/../../../../../../../Shared/Epic Games/UE_5.7/Engine/Source/Editor/BlueprintGraph/Classes/K2Node.h" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/../../../../../../../Shared/Epic Games/UE_5.7/Engine/Source/Editor/Layers/Private/ActorLayerCollectionViewModel.h" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/../../../../../../../Shared/Epic Games/UE_5.7/Engine/Source/Editor/Layers/Private/ActorLayerViewModel.h" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/../../../../../../../Shared/Epic Games/UE_5.7/Engine/Source/Editor/MainFrame/Private/Frame/MainFrameActions.cpp" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/../../../../../../../Shared/Epic Games/UE_5.7/Engine/Source/Editor/SceneOutliner/Private/ActorBrowsingModeCommands.h" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/../../../../../../../Shared/Epic Games/UE_5.7/Engine/Source/Runtime/Experimental/Chaos/Public/Chaos/ClusterUnionManager.h" root0="FORCE_HIGHLIGHTING" />
+  </component>
   <component name="MetaFilesCheckinStateConfiguration" checkMetaFiles="true" />
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 2
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 2
+}</component>
   <component name="ProjectId" id="38Tqlbp7DK7CROUdkTse3kUOGGv" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "ModuleVcsDetector.initialDetectionPerformed": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "RunOnceActivity.typescript.service.memoryLimit.init": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "Uproject.GAS.executor": "Run",
-    "git-widget-placeholder": "main",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "configurable.group.editor",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.typescript.service.memoryLimit.init&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;Uproject.GAS.executor&quot;: &quot;Run&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;configurable.group.editor&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RunManager">
     <configuration name="GAS" type="Uproject" factoryName="rider.uproject">
       <configuration_1 setup="1">
@@ -165,7 +202,14 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1768834061827</updated>
-      <workItem from="1768834069523" duration="9527000" />
+      <workItem from="1768834069523" duration="11406000" />
+      <workItem from="1768902435141" duration="73000" />
+      <workItem from="1768903880219" duration="4026000" />
+      <workItem from="1768913314165" duration="183000" />
+      <workItem from="1768913502412" duration="41000" />
+      <workItem from="1768913548957" duration="271000" />
+      <workItem from="1768913829042" duration="22000" />
+      <workItem from="1768913894198" duration="65000" />
     </task>
     <servers />
   </component>

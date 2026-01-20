@@ -16,7 +16,7 @@
   </ItemGroup>
   <ItemGroup>
   <Compile Include="../../../../Source/GAS.Target.cs"><Link>Source/GAS.Target.cs</Link></Compile>
-  <Compile Include="../../../../Source/GAS/GAS.Build.cs"><Link>Source/GAS/GAS.Build.cs</Link></Compile>
+  <Compile Include="../../../../Source/GAS/GAS/GameplayAbilitySystem/GAS.Build.cs"><Link>Source/GAS/GAS/GameplayAbilitySystem/GAS.Build.cs</Link></Compile>
   <Compile Include="../../../../Source/GASEditor.Target.cs"><Link>Source/GASEditor.Target.cs</Link></Compile>
   </ItemGroup>
 </Project>

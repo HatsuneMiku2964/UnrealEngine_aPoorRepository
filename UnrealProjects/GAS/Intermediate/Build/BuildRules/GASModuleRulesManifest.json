@@ -1,6 +1,6 @@
 {
 	"SourceFiles": [
-		"/Users/sakura/UnrealEngine/Gits/Repos/UnrealEngine_aPoorRepository/UnrealProjects/GAS/Source/GAS/GAS.Build.cs",
+		"/Users/sakura/UnrealEngine/Gits/Repos/UnrealEngine_aPoorRepository/UnrealProjects/GAS/Source/GAS/GameplayAbilitySystem/GAS.Build.cs",
 		"/Users/sakura/UnrealEngine/Gits/Repos/UnrealEngine_aPoorRepository/UnrealProjects/GAS/Source/GAS.Target.cs",
 		"/Users/sakura/UnrealEngine/Gits/Repos/UnrealEngine_aPoorRepository/UnrealProjects/GAS/Source/GASEditor.Target.cs"
 	],
