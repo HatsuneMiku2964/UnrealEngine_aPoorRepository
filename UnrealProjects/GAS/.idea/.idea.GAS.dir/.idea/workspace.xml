@@ -8,321 +8,62 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7ad7ff17-6899-409e-88a4-b83913b84d26" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/../AI/AI.uproject" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AI/Config/DefaultEditor.ini" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AI/Config/DefaultEditorPerProjectUserSettings.ini" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AI/Config/DefaultEngine.ini" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AI/Config/DefaultGame.ini" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AI/Config/DefaultInput.ini" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AI/Content/Animations/Animations 2/Axe/BS_AxeLocomotion.uasset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AI/Content/Animations/Animations 2/Axe/Montage_Axe_Battlecry.uasset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AI/Content/Animations/Animations 2/Axe/Montage_Axe_BlockReact.uasset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AI/Content/Animations/Animations 2/Axe/Montage_Axe_Combo_1.uasset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AI/Content/Animations/Animations 2/Axe/Montage_Axe_Combo_2.uasset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AI/Content/Animations/Animations 2/Axe/Montage_Axe_GroundSmash.uasset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AI/Content/Animations/Animations 2/Axe/Montage_Axe_HitReaction.uasset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AI/Content/Animations/Animations 2/Axe/Montage_Axe_JumpAttack.uasset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AI/Content/Animations/Animations 2/Axe/Montage_Axe_QuickAttack.uasset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AI/Content/Animations/Animations 2/Axe/Montage_Axe_Throw.uasset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AI/Content/Animations/Animations 2/Axe/axe-battlecry_UE.uasset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AI/Content/Animations/Animations 2/Axe/axe-block-success_UE.uasset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AI/Content/Animations/Animations 2/Axe/axe-combo-1_UE.uasset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AI/Content/Animations/Animations 2/Axe/axe-combo-2_UE.uasset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AI/Content/Animations/Animations 2/Axe/axe-ground-smash_UE.uasset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AI/Content/Animations/Animations 2/Axe/axe-hit-reaction_UE.uasset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AI/Content/Animations/Animations 2/Axe/axe-idle_UE.uasset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AI/Content/Animations/Animations 2/Axe/axe-jump-attack_UE.uasset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AI/Content/Animations/Animations 2/Axe/axe-run-back_UE.uasset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AI/Content/Animations/Animations 2/Axe/axe-run-forward_UE.uasset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AI/Content/Animations/Animations 2/Axe/axe-run-left_UE.uasset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AI/Content/Animations/Animations 2/Axe/axe-run-right_UE.uasset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AI/Content/Animations/Animations 2/Axe/axe-throw_UE.uasset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AI/Content/Animations/Animations 2/Axe/axe-walk-back_UE.uasset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AI/Content/Animations/Animations 2/Axe/axe-walk-forward_UE.uasset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AI/Content/Animations/Animations 2/Axe/axe-walk-left_UE.uasset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AI/Content/Animations/Animations 2/Axe/axe-walk-right_UE.uasset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AI/Content/Animations/Animations 2/Magic/BS_Magic_Locomotion.uasset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AI/Content/Animations/Animations 2/Magic/Montage_Hadouken.uasset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AI/Content/Animations/Animations 2/Magic/hadouken.uasset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AI/Content/Animations/Animations 2/Magic/magic-idle.uasset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AI/Content/Animations/Animations 2/Magic/magic-walk-back.uasset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AI/Content/Animations/Animations 2/Magic/magic-walk-forward.uasset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AI/Content/Animations/Animations 2/Magic/magic-walk-left.uasset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AI/Content/Animations/Animations 2/Magic/magic-walk-right.uasset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AI/Content/Animations/Animations 2/Melee/BS_SwordStrafe.uasset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AI/Content/Animations/Animations 2/Melee/Montage_Melee_GroundSmash.uasset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AI/Content/Animations/Animations 2/Melee/Montage_Sheath_Sword.uasset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AI/Content/Animations/Animations 2/Melee/Montage_Shield_Block.uasset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AI/Content/Animations/Animations 2/Melee/Montage_Shield_Block_React.uasset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AI/Content/Animations/Animations 2/Melee/Montage_Shield_Block_React_NoRootMotion.uasset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AI/Content/Animations/Animations 2/Melee/Montage_Stagger.uasset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AI/Content/Animations/Animations 2/Melee/Montage_SwordCombo.uasset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AI/Content/Animations/Animations 2/Melee/Montage_Sword_Block.uasset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AI/Content/Animations/Animations 2/Melee/Montage_Sword_Block_React.uasset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AI/Content/Animations/Animations 2/Melee/Montage_Sword_Hit.uasset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AI/Content/Animations/Animations 2/Melee/Montage_Sword_Jump_Attack.uasset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AI/Content/Animations/Animations 2/Melee/Montage_Sword_Slash.uasset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AI/Content/Animations/Animations 2/Melee/Montage_Sword_SpinningAttack.uasset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AI/Content/Animations/Animations 2/Melee/Montage_Unsheath_Sword.uasset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AI/Content/Animations/Animations 2/Melee/SwordAndShieldcomboUE.uasset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AI/Content/Animations/Animations 2/Melee/shield-block-react-no-root-motion.uasset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AI/Content/Animations/Animations 2/Melee/shield-block-react.uasset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AI/Content/Animations/Animations 2/Melee/shield-block.uasset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AI/Content/Animations/Animations 2/Melee/spinning-sword-anim.uasset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AI/Content/Animations/Animations 2/Melee/stagger.uasset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AI/Content/Animations/Animations 2/Melee/sword-block-react.uasset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AI/Content/Animations/Animations 2/Melee/sword-block.uasset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AI/Content/Animations/Animations 2/Melee/sword-ground-smash.uasset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AI/Content/Animations/Animations 2/Melee/sword-idle.uasset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AI/Content/Animations/Animations 2/Melee/sword-jump-attack.uasset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AI/Content/Animations/Animations 2/Melee/sword-sheath.uasset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AI/Content/Animations/Animations 2/Melee/sword-shield-block.uasset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AI/Content/Animations/Animations 2/Melee/sword-shield-hit.uasset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AI/Content/Animations/Animations 2/Melee/sword-shield-run-back.uasset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AI/Content/Animations/Animations 2/Melee/sword-shield-run-forward.uasset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AI/Content/Animations/Animations 2/Melee/sword-shield-run-left.uasset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AI/Content/Animations/Animations 2/Melee/sword-shield-run-right.uasset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AI/Content/Animations/Animations 2/Melee/sword-slash.uasset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AI/Content/Animations/Animations 2/Melee/sword-walk-back.uasset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AI/Content/Animations/Animations 2/Melee/sword-walk-forward.uasset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AI/Content/Animations/Animations 2/Melee/sword-walk-left.uasset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AI/Content/Animations/Animations 2/Melee/sword-walk-right.uasset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AI/Content/Animations/Animations 2/Rifle/BS_Rifle_Locomotion.uasset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AI/Content/Animations/Animations 2/Rifle/Montage_Rifle_Fire.uasset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AI/Content/Animations/Animations 2/Rifle/Montage_Rifle_Hit.uasset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AI/Content/Animations/Animations 2/Rifle/rifle-fire.uasset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AI/Content/Animations/Animations 2/Rifle/rifle-hit.uasset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AI/Content/Animations/Animations 2/Rifle/rifle-idle-aim.uasset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AI/Content/Animations/Animations 2/Rifle/rifle-run-back.uasset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AI/Content/Animations/Animations 2/Rifle/rifle-run-forward.uasset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AI/Content/Animations/Animations 2/Rifle/rifle-run-left.uasset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AI/Content/Animations/Animations 2/Rifle/rifle-run-right.uasset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AI/Content/Animations/Animations 2/Rifle/rifle-walk-back.uasset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AI/Content/Animations/Animations 2/Rifle/rifle-walk-forward.uasset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AI/Content/Animations/Animations 2/Rifle/rifle-walk-left.uasset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AI/Content/Animations/Animations 2/Rifle/rifle-walk-right.uasset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AI/Content/Animations/Axe/BS_AxeLocomotion.uasset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AI/Content/Animations/Axe/Montage_AxeCastShield.uasset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AI/Content/Animations/Axe/Montage_Axe_Combo.uasset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AI/Content/Animations/Axe/Montage_Equip_Axe.uasset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AI/Content/Animations/Axe/Montage_MeleeAttack_AxeSwing.uasset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AI/Content/Animations/Axe/Montage_Unequip_Axe.uasset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AI/Content/Animations/Axe/axe-attack-combo.uasset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AI/Content/Animations/Axe/axe-attack-single.uasset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AI/Content/Animations/Axe/axe-cast-shield.uasset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AI/Content/Animations/Axe/axe-equip.uasset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AI/Content/Animations/Axe/axe-idle.uasset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AI/Content/Animations/Axe/axe-run-back.uasset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AI/Content/Animations/Axe/axe-run-forward.uasset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AI/Content/Animations/Axe/axe-run-left.uasset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AI/Content/Animations/Axe/axe-run-right.uasset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AI/Content/Animations/Axe/axe-walk-back.uasset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AI/Content/Animations/Axe/axe-walk-forward.uasset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AI/Content/Animations/Axe/axe-walk-left.uasset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AI/Content/Animations/Axe/axe-walk-right.uasset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AI/Content/Animations/Montage_HitReaction.uasset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AI/Content/Animations/Montage_ShieldStart.uasset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AI/Content/Animations/Staff/BS_StaffLocomotion.uasset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AI/Content/Animations/Staff/Montage_AOE_Targeting.uasset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AI/Content/Animations/Staff/Montage_AOE_Trigger.uasset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AI/Content/Animations/Staff/Montage_Equip_Staff.uasset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AI/Content/Animations/Staff/Montage_Staff_ShootProjectile.uasset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AI/Content/Animations/Staff/Montage_Unequip_Staff.uasset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AI/Content/Animations/Staff/staff-equip.uasset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AI/Content/Animations/Staff/staff-idle.uasset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AI/Content/Animations/Staff/staff-projectile-attack.uasset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AI/Content/Animations/Staff/staff-strike-trigger.uasset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AI/Content/Animations/Staff/staff-targeting.uasset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AI/Content/Animations/Staff/staff-walk-back.uasset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AI/Content/Animations/Staff/staff-walk-forward.uasset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AI/Content/Animations/Staff/staff-walk-left.uasset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AI/Content/Animations/Staff/staff-walk-right.uasset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AI/Content/Animations/hit-reaction.uasset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AI/Content/Animations/power-up.uasset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AI/Content/Audio/Audio 2/Cue_Explosion_Delayed.uasset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AI/Content/Audio/Audio 2/Cue_ProjectileImpact.uasset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AI/Content/Audio/Audio 2/Cue_Projectile_Spawn.uasset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AI/Content/Audio/Audio 2/Cue_ShieldDown.uasset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AI/Content/Audio/Audio 2/Cue_ShieldUp.uasset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AI/Content/Audio/Audio 2/buff-1.uasset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AI/Content/Audio/Audio 2/energy-hit-powerdown.uasset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AI/Content/Audio/Audio 2/fire-torch_whoosh-1-medium-speed.uasset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AI/Content/Audio/Audio 2/ice-explode.uasset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AI/Content/Audio/Audio 2/magical-spell-cast-190272.uasset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AI/Content/Audio/Audio 2/teleport-sound.uasset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AI/Content/Audio/Audio 2/void-impact.uasset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AI/Content/Audio/Cue_Rifle_Fire.uasset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AI/Content/Audio/Weapons_Rifle2_Punch_01.uasset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AI/Content/Audio/Weapons_Rifle2_Sweetener_01.uasset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AI/Content/Audio/axe-block.uasset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AI/Content/Audio/axe-swing.uasset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AI/Content/Audio/energy-charge-up.uasset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AI/Content/Audio/ground-smash-cast.uasset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AI/Content/Audio/ground-smash-explode.uasset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AI/Content/Audio/sci-fi-explosion.uasset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AI/Content/Audio/sword-swing.uasset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AI/Content/Audio/teleport-sound.uasset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AI/Content/Characters/Mannequins/Anims/Unarmed/ABP_Unarmed.uasset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AI/Content/Characters/Mannequins/Anims/Unarmed/BS_Idle_Walk_Run.uasset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AI/Content/Characters/Mannequins/Anims/Unarmed/Jog/MF_Unarmed_Jog_Bwd.uasset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AI/Content/Characters/Mannequins/Anims/Unarmed/Jog/MF_Unarmed_Jog_Bwd_Left.uasset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AI/Content/Characters/Mannequins/Anims/Unarmed/Jog/MF_Unarmed_Jog_Bwd_Right.uasset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AI/Content/Characters/Mannequins/Anims/Unarmed/Jog/MF_Unarmed_Jog_Fwd.uasset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AI/Content/Characters/Mannequins/Anims/Unarmed/Jog/MF_Unarmed_Jog_Fwd_Left.uasset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AI/Content/Characters/Mannequins/Anims/Unarmed/Jog/MF_Unarmed_Jog_Fwd_Right.uasset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AI/Content/Characters/Mannequins/Anims/Unarmed/Jog/MF_Unarmed_Jog_Left.uasset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AI/Content/Characters/Mannequins/Anims/Unarmed/Jog/MF_Unarmed_Jog_Right.uasset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AI/Content/Characters/Mannequins/Anims/Unarmed/Jump/MM_Dash.uasset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AI/Content/Characters/Mannequins/Anims/Unarmed/Jump/MM_Fall_Loop.uasset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AI/Content/Characters/Mannequins/Anims/Unarmed/Jump/MM_Jump.uasset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AI/Content/Characters/Mannequins/Anims/Unarmed/Jump/MM_Land.uasset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AI/Content/Characters/Mannequins/Anims/Unarmed/Jump/MM_WallJump.uasset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AI/Content/Characters/Mannequins/Anims/Unarmed/MM_Idle.uasset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AI/Content/Characters/Mannequins/Anims/Unarmed/Walk/MF_Unarmed_Walk_Bwd.uasset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AI/Content/Characters/Mannequins/Anims/Unarmed/Walk/MF_Unarmed_Walk_Bwd_Left.uasset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AI/Content/Characters/Mannequins/Anims/Unarmed/Walk/MF_Unarmed_Walk_Bwd_Right.uasset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AI/Content/Characters/Mannequins/Anims/Unarmed/Walk/MF_Unarmed_Walk_Fwd.uasset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AI/Content/Characters/Mannequins/Anims/Unarmed/Walk/MF_Unarmed_Walk_Fwd_Left.uasset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AI/Content/Characters/Mannequins/Anims/Unarmed/Walk/MF_Unarmed_Walk_Fwd_Right.uasset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AI/Content/Characters/Mannequins/Anims/Unarmed/Walk/MF_Unarmed_Walk_Left.uasset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AI/Content/Characters/Mannequins/Anims/Unarmed/Walk/MF_Unarmed_Walk_Right.uasset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AI/Content/Characters/Mannequins/Materials/M_Mannequin.uasset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AI/Content/Characters/Mannequins/Materials/Manny/MI_Manny_01_New.uasset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AI/Content/Characters/Mannequins/Materials/Manny/MI_Manny_02_New.uasset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AI/Content/Characters/Mannequins/Materials/Quinn/MI_Quinn_01.uasset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AI/Content/Characters/Mannequins/Materials/Quinn/MI_Quinn_02.uasset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AI/Content/Characters/Mannequins/Meshes/SKM_Manny_Simple.uasset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AI/Content/Characters/Mannequins/Meshes/SKM_Quinn_Simple.uasset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AI/Content/Characters/Mannequins/Meshes/SK_Mannequin.uasset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AI/Content/Characters/Mannequins/Rigs/CR_Mannequin_Body.uasset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AI/Content/Characters/Mannequins/Rigs/CR_Mannequin_FootIK.uasset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AI/Content/Characters/Mannequins/Rigs/CR_Mannequin_Procedural.uasset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AI/Content/Characters/Mannequins/Rigs/PA_Mannequin.uasset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AI/Content/Characters/Mannequins/Textures/Manny/T_Manny_01_BN.uasset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AI/Content/Characters/Mannequins/Textures/Manny/T_Manny_01_D.uasset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AI/Content/Characters/Mannequins/Textures/Manny/T_Manny_01_MRA.uasset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AI/Content/Characters/Mannequins/Textures/Manny/T_Manny_02_BN.uasset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AI/Content/Characters/Mannequins/Textures/Manny/T_Manny_02_D.uasset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AI/Content/Characters/Mannequins/Textures/Manny/T_Manny_02_MRA.uasset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AI/Content/Characters/Mannequins/Textures/Manny/T_Manny_02_N.uasset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AI/Content/Characters/Mannequins/Textures/Quinn/T_Quinn_01_D.uasset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AI/Content/Characters/Mannequins/Textures/Quinn/T_Quinn_01_MRA.uasset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AI/Content/Characters/Mannequins/Textures/Quinn/T_Quinn_01_N.uasset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AI/Content/Characters/Mannequins/Textures/Quinn/T_Quinn_02_D.uasset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AI/Content/Characters/Mannequins/Textures/Quinn/T_Quinn_02_MRA.uasset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AI/Content/Characters/Mannequins/Textures/Quinn/T_Quinn_02_N.uasset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AI/Content/Characters/Mannequins/Textures/Shared/T_UE_Logo_M.uasset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AI/Content/Decals/Decal_AOE.uasset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AI/Content/Decals/damage-decal-square.uasset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AI/Content/Enemy/AIC_Enemy_Base.uasset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AI/Content/Enemy/BP_Enemy_Base.uasset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AI/Content/Input/Actions/IA_Jump.uasset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AI/Content/Input/Actions/IA_Look.uasset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AI/Content/Input/Actions/IA_MouseLook.uasset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AI/Content/Input/Actions/IA_Move.uasset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AI/Content/Input/IMC_Default.uasset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AI/Content/Input/IMC_MouseLook.uasset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AI/Content/LevelPrototyping/Materials/MF_ProcGrid.uasset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AI/Content/LevelPrototyping/Materials/MI_DefaultColorway.uasset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AI/Content/LevelPrototyping/Materials/MI_PrototypeGrid_Gray.uasset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AI/Content/LevelPrototyping/Materials/MI_PrototypeGrid_Gray_02.uasset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AI/Content/LevelPrototyping/Materials/MI_PrototypeGrid_Gray_Round.uasset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AI/Content/LevelPrototyping/Materials/MI_PrototypeGrid_TopDark.uasset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AI/Content/LevelPrototyping/Materials/M_FlatCol.uasset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AI/Content/LevelPrototyping/Materials/M_PrototypeGrid.uasset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AI/Content/LevelPrototyping/Meshes/SM_ChamferCube.uasset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AI/Content/LevelPrototyping/Meshes/SM_Cube.uasset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AI/Content/LevelPrototyping/Meshes/SM_Cylinder.uasset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AI/Content/LevelPrototyping/Meshes/SM_Plane.uasset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AI/Content/LevelPrototyping/Meshes/SM_QuarterCylinder.uasset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AI/Content/LevelPrototyping/Meshes/SM_QuarterCylinderOuter.uasset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AI/Content/LevelPrototyping/Meshes/SM_Ramp.uasset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AI/Content/LevelPrototyping/Textures/T_GridChecker_A.uasset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AI/Content/ThirdPerson/Blueprints/BP_ThirdPersonCharacter.uasset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AI/Content/ThirdPerson/Blueprints/BP_ThirdPersonGameMode.uasset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AI/Content/ThirdPerson/Blueprints/BP_ThirdPersonPlayerController.uasset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AI/Content/ThirdPerson/Lvl_ThirdPerson.umap" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AI/Content/__ExternalActors__/ThirdPerson/Lvl_ThirdPerson/0/PP/LLAPPHCUFO2JWB4KF17XH7.uasset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AI/Content/__ExternalActors__/ThirdPerson/Lvl_ThirdPerson/1/8G/QQO2XORPD6L8E93SGD87HM.uasset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AI/Content/__ExternalActors__/ThirdPerson/Lvl_ThirdPerson/1/8I/MAAPJ2ZZRZ5PIMROZXOKHJ.uasset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AI/Content/__ExternalActors__/ThirdPerson/Lvl_ThirdPerson/1/QC/ZRIGABHWA0HI2Q7JKD6THT.uasset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AI/Content/__ExternalActors__/ThirdPerson/Lvl_ThirdPerson/2/AM/9YGDW7FMEY1CZD31VUYO11.uasset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AI/Content/__ExternalActors__/ThirdPerson/Lvl_ThirdPerson/2/HL/1PQCOE3XTBU7C4C66HKWRU.uasset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AI/Content/__ExternalActors__/ThirdPerson/Lvl_ThirdPerson/2/I5/WZKB3QISAI10009LQNC0HA.uasset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AI/Content/__ExternalActors__/ThirdPerson/Lvl_ThirdPerson/3/0N/NTRPN55OWWUSD03K29ZOSH.uasset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AI/Content/__ExternalActors__/ThirdPerson/Lvl_ThirdPerson/3/9K/I2V87XLK37YHWKBYF36QLF.uasset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AI/Content/__ExternalActors__/ThirdPerson/Lvl_ThirdPerson/3/9P/TCE2M1JNFN76RR23A90U5B.uasset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AI/Content/__ExternalActors__/ThirdPerson/Lvl_ThirdPerson/4/9I/4LTY0LP81YUDYAZ6YRR8MS.uasset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AI/Content/__ExternalActors__/ThirdPerson/Lvl_ThirdPerson/4/UH/TH0JABIY3K8MHR7YXYY7FD.uasset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AI/Content/__ExternalActors__/ThirdPerson/Lvl_ThirdPerson/5/RW/TUGSQ1XAQZJTNWC4B613O0.uasset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AI/Content/__ExternalActors__/ThirdPerson/Lvl_ThirdPerson/6/RA/MCE083J3ORV1G4WMKOVFJI.uasset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AI/Content/__ExternalActors__/ThirdPerson/Lvl_ThirdPerson/7/7I/J2EUOSRY7KH4WED0GKHY9J.uasset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AI/Content/__ExternalActors__/ThirdPerson/Lvl_ThirdPerson/7/BO/E6RHHVC3JHBZ0SP39WQKGJ.uasset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AI/Content/__ExternalActors__/ThirdPerson/Lvl_ThirdPerson/7/U8/SIHU2LZCZXBA0QA3HLWCF6.uasset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AI/Content/__ExternalActors__/ThirdPerson/Lvl_ThirdPerson/7/ZO/259TD55PQPCKUIP1R6K62I.uasset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AI/Content/__ExternalActors__/ThirdPerson/Lvl_ThirdPerson/8/0A/FDHNJJYPXXJIZ5KZ6J9ARJ.uasset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AI/Content/__ExternalActors__/ThirdPerson/Lvl_ThirdPerson/8/JF/AP85HRM5RSNXBM9KHVE6X0.uasset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AI/Content/__ExternalActors__/ThirdPerson/Lvl_ThirdPerson/8/VS/XX060WNO6GEZU5BZQCLZPP.uasset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AI/Content/__ExternalActors__/ThirdPerson/Lvl_ThirdPerson/9/0R/QTJV84C3C5XRWRR2E5Q905.uasset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AI/Content/__ExternalActors__/ThirdPerson/Lvl_ThirdPerson/9/30/7L9K1Y4N9YQZYK72G6TU0M.uasset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AI/Content/__ExternalActors__/ThirdPerson/Lvl_ThirdPerson/9/5G/29Z6AXUGZPZ0CXHLK2DICG.uasset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AI/Content/__ExternalActors__/ThirdPerson/Lvl_ThirdPerson/9/LX/1K6D4FIEJMOF50LSVJKFMP.uasset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AI/Content/__ExternalActors__/ThirdPerson/Lvl_ThirdPerson/A/I4/9UWKQBK8SVT5KIJERZH9IE.uasset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AI/Content/__ExternalActors__/ThirdPerson/Lvl_ThirdPerson/B/9P/WLFPJCXXJ2BT6XT962MOT0.uasset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AI/Content/__ExternalActors__/ThirdPerson/Lvl_ThirdPerson/B/SV/KZAI4XOH62J5HIEET412KE.uasset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AI/Content/__ExternalActors__/ThirdPerson/Lvl_ThirdPerson/B/T1/JDRZA7L2H41KBZAMKOP397.uasset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AI/Content/__ExternalActors__/ThirdPerson/Lvl_ThirdPerson/C/0J/58O11S28VSO9GLER0IN1Y2.uasset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AI/Content/__ExternalActors__/ThirdPerson/Lvl_ThirdPerson/C/EE/HZ5WNBFZRJYQPUA6X8TVVT.uasset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AI/Content/__ExternalActors__/ThirdPerson/Lvl_ThirdPerson/C/HY/Q7CPP7VHOXBAMAJI90W626.uasset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AI/Content/__ExternalActors__/ThirdPerson/Lvl_ThirdPerson/C/US/7891XKQ3IB241GQW16ZXFE.uasset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AI/Content/__ExternalActors__/ThirdPerson/Lvl_ThirdPerson/D/AY/KLCRMXKI9WR2P0GDY96C36.uasset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AI/Content/__ExternalActors__/ThirdPerson/Lvl_ThirdPerson/D/EH/JTJK9MWM8RMJUIGNE3NKI0.uasset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AI/Content/__ExternalActors__/ThirdPerson/Lvl_ThirdPerson/D/P3/CGGNW4DMVNF718HM8AHB3X.uasset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AI/Content/__ExternalActors__/ThirdPerson/Lvl_ThirdPerson/D/RI/R8L7GQXCHQGMMKBPTBJTNA.uasset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AI/Content/__ExternalActors__/ThirdPerson/Lvl_ThirdPerson/D/ZP/QCV6FBALOPHLPFQTHJ5M2U.uasset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AI/Content/__ExternalActors__/ThirdPerson/Lvl_ThirdPerson/E/1Y/OCH9CZ9YOHNDVA41HGED4R.uasset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AI/Content/__ExternalActors__/ThirdPerson/Lvl_ThirdPerson/E/2Y/ZNTENJ4S2M8RKZZ9CJQ9RM.uasset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AI/Content/__ExternalActors__/ThirdPerson/Lvl_ThirdPerson/E/4E/RSFLF9AYLFKF3FBNBD57H8.uasset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AI/Content/__ExternalActors__/ThirdPerson/Lvl_ThirdPerson/E/8O/8KEOVZ8QYMQZRLOGV506HF.uasset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AI/Content/__ExternalActors__/ThirdPerson/Lvl_ThirdPerson/E/96/RFQP83S9K0LC7IW8CXS6C0.uasset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AI/Content/__ExternalActors__/ThirdPerson/Lvl_ThirdPerson/F/4G/TYFCMQ9MC435YW6FZBF5FS.uasset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AI/Content/__ExternalObjects__/ThirdPerson/Lvl_ThirdPerson/0/TQ/1UP2MCOIYXC0GTW985R4K0.uasset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AI/Content/__ExternalObjects__/ThirdPerson/Lvl_ThirdPerson/5/TX/O6OLZU4WSCI3YRJS922SWL.uasset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AI/DerivedDataCache/VT/TEXTURE_7C16439390E24F1F9468894FB4D4BC55_VTCHUNK02D4C3BCAD7DFA48AB32B8281FB06B8B83DB6275" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AI/DerivedDataCache/VT/TEXTURE_7C16439390E24F1F9468894FB4D4BC55_VTCHUNK38740DBD4108040D6985AA56705D97D46F27920C" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AI/DerivedDataCache/VT/TEXTURE_7C16439390E24F1F9468894FB4D4BC55_VTCHUNK84C05FFC339C0CEFE446DED1628C0AFB5362331E" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AI/DerivedDataCache/VT/TEXTURE_7C16439390E24F1F9468894FB4D4BC55_VTCHUNKC0393DE8C5B4673D99D1BECB92AA8C1F72FEB491" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AI/DerivedDataCache/VT/TEXTURE_7C16439390E24F1F9468894FB4D4BC55_VTCHUNKD2DAB16BFF152507817E734DBB935160EA97A322" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AI/Intermediate/CachedAssetRegistry_0.bin" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AI/Intermediate/PipInstall/extra_urls.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AI/Intermediate/PipInstall/lib/python3.11/site-packages/plugin_site_package.pth" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AI/Intermediate/PipInstall/merged_requirements.in" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AI/Intermediate/PipInstall/pyreqs_plugins.list" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AI/Intermediate/ReimportCache/3688439234.bin" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AI/Intermediate/ShaderAutogen/METAL_SM6/AutogenShaderHeaders.ush" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AI/Saved/AutoScreenshot.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AI/Saved/Autosaves/Game/Enemy/BP_Enemy_Base_Auto1.uasset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AI/Saved/Autosaves/Game/ThirdPerson/Blueprints/BP_ThirdPersonCharacter_Auto1.uasset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AI/Saved/Autosaves/PackageRestoreData.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AI/Saved/Config/CrashReportClient/UECC-Mac-6D753F3B9946FA44A19D2CA65FD82BB3/CrashReportClient.ini" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AI/Saved/Config/MacEditor/Editor.ini" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AI/Saved/Config/MacEditor/EditorPerProjectUserSettings.ini" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AI/Saved/Config/MacEditor/GameUserSettings.ini" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AI/Saved/Config/WorldState/557176670.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AI/Saved/ShaderDebugInfo/METAL_SM6/WorldGridMaterial_e2303153b526e323/Default/DDCKey-Editor.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AI/Saved/SourceControl/UncontrolledChangelists.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.GAS.dir/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.GAS.dir/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Binaries/Mac/GASEditor.target" beforeDir="false" afterPath="$PROJECT_DIR$/Binaries/Mac/GASEditor.target" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Binaries/Mac/UnrealEditor.modules" beforeDir="false" afterPath="$PROJECT_DIR$/Binaries/Mac/UnrealEditor.modules" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Config/DefaultEditor.ini" beforeDir="false" afterPath="$PROJECT_DIR$/Config/DefaultEditor.ini" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/LevelPrototyping/Interactable/Door/BP_DoorFrame.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/LevelPrototyping/Interactable/Door/Meshes/SM_Door.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/LevelPrototyping/Interactable/Door/Meshes/SM_DoorFrame_Corner.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/LevelPrototyping/Interactable/Door/Meshes/SM_DoorFrame_Edge.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/LevelPrototyping/Interactable/JumpPad/Assets/Materials/MI_GlowNT.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/LevelPrototyping/Interactable/JumpPad/Assets/Materials/M_GradientGlow.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/LevelPrototyping/Interactable/JumpPad/Assets/Materials/M_SimpleGlow.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/LevelPrototyping/Interactable/JumpPad/Assets/Meshes/SM_CircularBand.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/LevelPrototyping/Interactable/JumpPad/Assets/Meshes/SM_CircularGlow.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/LevelPrototyping/Interactable/JumpPad/Assets/NS_JumpPad.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/LevelPrototyping/Interactable/JumpPad/BP_JumpPad.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/LevelPrototyping/Interactable/Target/Assets/SM_TargetBaseMesh.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/LevelPrototyping/Interactable/Target/BP_WobbleTarget.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Intermediate/Build/Mac/ActionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/Build/Mac/ActionHistory.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Intermediate/Build/Mac/GASEditor/Development/GASEditor.uhtmanifest" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/Build/Mac/GASEditor/Development/GASEditor.uhtmanifest" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Intermediate/Build/Mac/arm64/GASEditor/Development/HotReloadState.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Intermediate/Build/Mac/arm64/GASEditor/Development/Makefile.bin" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/Build/Mac/arm64/GASEditor/Development/Makefile.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Intermediate/Build/Mac/arm64/GASEditor/Development/TargetMetadata.dat" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/Build/Mac/arm64/GASEditor/Development/TargetMetadata.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Intermediate/Build/Mac/arm64/UnrealEditor/Development/GAS/Definitions.GAS.h" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/Build/Mac/arm64/UnrealEditor/Development/GAS/Definitions.GAS.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Intermediate/Build/SourceFileCache.bin" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/Build/SourceFileCache.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Intermediate/CachedAssetRegistry_0.bin" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/CachedAssetRegistry_0.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Intermediate/ProjectFiles/.Rider/Mac/Development/Editor/GAS.json" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/ProjectFiles/.Rider/Mac/Development/Editor/GAS.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Intermediate/ProjectFiles/.Rider/Mac/Development/Editor/UnrealEditor.json" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/ProjectFiles/.Rider/Mac/Development/Editor/UnrealEditor.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Saved/AutoScreenshot.png" beforeDir="false" afterPath="$PROJECT_DIR$/Saved/AutoScreenshot.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Saved/Config/MacEditor/EditorPerProjectUserSettings.ini" beforeDir="false" afterPath="$PROJECT_DIR$/Saved/Config/MacEditor/EditorPerProjectUserSettings.ini" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Saved/SourceControl/UncontrolledChangelists.json" beforeDir="false" afterPath="$PROJECT_DIR$/Saved/SourceControl/UncontrolledChangelists.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Source/GAS/GAS.Build.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Source/GAS/GAS.Build.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Source/GAS/MyCharacter.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Source/GAS/GameplayAbilitySystem/Characters/MyCharacter.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Source/GAS/MyCharacter.h" beforeDir="false" afterPath="$PROJECT_DIR$/Source/GAS/GameplayAbilitySystem/Characters/MyCharacter.h" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="CopilotPersistence">
+    <persistenceIdMap>
+      <entry key="_/Users/sakura/UnrealEngine/Gits/Repos/UnrealEngine_aPoorRepository/UnrealProjects/GAS" value="38huYhheVRXp4LHmUi9RiF53iAQ" />
+    </persistenceIdMap>
+  </component>
+  <component name="DpaMonitoringSettings">
+    <option name="firstShow" value="false" />
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 1
-}]]></component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/Intermediate/Build/Mac/UnrealEditor/Inc/GAS/UHT/MyCharacter.gen.cpp" root0="FORCE_HIGHLIGHTING" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 1
+}</component>
   <component name="ProjectId" id="38huYhheVRXp4LHmUi9RiF53iAQ" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -334,6 +75,7 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
     "RunOnceActivity.typescript.service.memoryLimit.init": "true",
+    "Uproject.GAS.executor": "Run",
     "git-widget-placeholder": "main",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
@@ -427,6 +169,9 @@
       <option name="presentableId" value="Default" />
       <updated>1769264172736</updated>
       <workItem from="1769264177414" duration="1100000" />
+      <workItem from="1769265530414" duration="232000" />
+      <workItem from="1769307062939" duration="5018000" />
+      <workItem from="1769316340032" duration="1680000" />
     </task>
     <servers />
   </component>
@@ -454,5 +199,13 @@
         </breakpoint>
       </breakpoints>
     </breakpoint-manager>
+  </component>
+  <component name="github-copilot-workspace">
+    <instructionFileLocations>
+      <option value=".github/instructions" />
+    </instructionFileLocations>
+    <promptFileLocations>
+      <option value=".github/prompts" />
+    </promptFileLocations>
   </component>
 </project>
