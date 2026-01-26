@@ -4298,6 +4298,7 @@
   ../Plugins/Runtime/GameplayAbilities/Intermediate/Build/Mac/UnrealEditor/Inc/GameplayAbilities/UHT/AbilitySystemReplicationProxyInterface.generated.h \
   ../Plugins/Runtime/GameplayAbilities/Intermediate/Build/Mac/UnrealEditor/Inc/GameplayAbilities/UHT/AbilitySystemComponent.generated.h \
   /Users/sakura/UnrealEngine/Gits/Repos/UnrealEngine_aPoorRepository/UnrealProjects/GAS/Intermediate/Build/Mac/UnrealEditor/Inc/GAS/UHT/BasicAttributes.generated.h \
+  ../Plugins/Runtime/GameplayAbilities/Source/GameplayAbilities/Public/GameplayEffectExtension.h \
   Runtime/Engine/Public/Net/UnrealNetwork.h \
   Runtime/Engine/Public/EngineLogs.h \
   Runtime/Engine/Classes/Engine/EngineBaseTypes.h \
