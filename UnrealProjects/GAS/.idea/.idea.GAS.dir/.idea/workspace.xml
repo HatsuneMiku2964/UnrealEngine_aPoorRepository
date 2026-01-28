@@ -9,38 +9,74 @@
   <component name="ChangeListManager">
     <list default="true" id="7ad7ff17-6899-409e-88a4-b83913b84d26" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.GAS.dir/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.GAS.dir/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Binaries/Mac/GASEditor.target" beforeDir="false" afterPath="$PROJECT_DIR$/Binaries/Mac/GASEditor.target" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Binaries/Mac/UnrealEditor.modules" beforeDir="false" afterPath="$PROJECT_DIR$/Binaries/Mac/UnrealEditor.modules" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Config/DefaultEditor.ini" beforeDir="false" afterPath="$PROJECT_DIR$/Config/DefaultEditor.ini" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/LevelPrototyping/Interactable/Door/BP_DoorFrame.uasset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/LevelPrototyping/Interactable/Door/Meshes/SM_Door.uasset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/LevelPrototyping/Interactable/Door/Meshes/SM_DoorFrame_Corner.uasset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/LevelPrototyping/Interactable/Door/Meshes/SM_DoorFrame_Edge.uasset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/LevelPrototyping/Interactable/JumpPad/Assets/Materials/MI_GlowNT.uasset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/LevelPrototyping/Interactable/JumpPad/Assets/Materials/M_GradientGlow.uasset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/LevelPrototyping/Interactable/JumpPad/Assets/Materials/M_SimpleGlow.uasset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/LevelPrototyping/Interactable/JumpPad/Assets/Meshes/SM_CircularBand.uasset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/LevelPrototyping/Interactable/JumpPad/Assets/Meshes/SM_CircularGlow.uasset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/LevelPrototyping/Interactable/JumpPad/Assets/NS_JumpPad.uasset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/LevelPrototyping/Interactable/JumpPad/BP_JumpPad.uasset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/LevelPrototyping/Interactable/Target/Assets/SM_TargetBaseMesh.uasset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/LevelPrototyping/Interactable/Target/BP_WobbleTarget.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/GameplayAbilitySystem/Cues/GC_Dash.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/GameplayAbilitySystem/Cues/GC_Dash.uasset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/__ExternalActors__/ThirdPerson/Lvl_ThirdPerson/1/IV/1ZY4WTAEXXIXKW2L6JWDAD.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/__ExternalActors__/ThirdPerson/Lvl_ThirdPerson/1/ZW/VUBXGCVPR62D3FL0R2AV0A.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/__ExternalActors__/ThirdPerson/Lvl_ThirdPerson/1/ZW/VUBXGCVPR62D3FL0R2AV0A.uasset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/__ExternalActors__/ThirdPerson/Lvl_ThirdPerson/1/ZZ/XRBSYAO3WCEISH4T4G1NAB.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/__ExternalActors__/ThirdPerson/Lvl_ThirdPerson/2/1I/PI6ZKVGFHUJU1OT2EI1MSM.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/__ExternalActors__/ThirdPerson/Lvl_ThirdPerson/2/ZR/28JSVNFKKTWBOEEIV7MNY2.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/__ExternalActors__/ThirdPerson/Lvl_ThirdPerson/3/QA/J716ADQANT1PA7SI0G9WEZ.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/__ExternalActors__/ThirdPerson/Lvl_ThirdPerson/4/02/NCFXP4VG398HQCJPGRKQXQ.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/__ExternalActors__/ThirdPerson/Lvl_ThirdPerson/4/3S/WYNW062JGP84K0ASTSYYZF.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/__ExternalActors__/ThirdPerson/Lvl_ThirdPerson/4/AG/YOZJS1XMUAOJPWPOJWMEJW.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/__ExternalActors__/ThirdPerson/Lvl_ThirdPerson/4/C8/Y3HDUIHOPR2NI4VTVCML1X.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/__ExternalActors__/ThirdPerson/Lvl_ThirdPerson/4/C8/Y3HDUIHOPR2NI4VTVCML1X.uasset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/__ExternalActors__/ThirdPerson/Lvl_ThirdPerson/4/C9/I2BT0IWIEFRMGNUC09PNI4.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/__ExternalActors__/ThirdPerson/Lvl_ThirdPerson/4/C9/I2BT0IWIEFRMGNUC09PNI4.uasset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/__ExternalActors__/ThirdPerson/Lvl_ThirdPerson/4/H1/3LDQIWHT41GOQZJO6OUGT5.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/__ExternalActors__/ThirdPerson/Lvl_ThirdPerson/4/T3/E8QG1JOOZT7BYQNMNQR9ZR.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/__ExternalActors__/ThirdPerson/Lvl_ThirdPerson/5/0U/2BHOOXOW76TEND7W2GE6OX.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/__ExternalActors__/ThirdPerson/Lvl_ThirdPerson/5/9A/RZB8R3DP286YRVYSADW162.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/__ExternalActors__/ThirdPerson/Lvl_ThirdPerson/5/EL/QUNQDVURAO53EZ6RAGZTVE.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/__ExternalActors__/ThirdPerson/Lvl_ThirdPerson/6/04/5S2CNPS4COQH9KAFSXTQQJ.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/__ExternalActors__/ThirdPerson/Lvl_ThirdPerson/6/BR/VMLJNCJK5MS2J8Z6CBKH5Z.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/__ExternalActors__/ThirdPerson/Lvl_ThirdPerson/6/PL/9YFZZMO6APHHAUY3D0B84K.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/__ExternalActors__/ThirdPerson/Lvl_ThirdPerson/7/G3/4NYFB9IT6119PSA3SZGTA9.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/__ExternalActors__/ThirdPerson/Lvl_ThirdPerson/7/G3/4NYFB9IT6119PSA3SZGTA9.uasset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/__ExternalActors__/ThirdPerson/Lvl_ThirdPerson/7/MI/ZA3TOAWPWPNJKABB1FMRNE.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/__ExternalActors__/ThirdPerson/Lvl_ThirdPerson/8/GQ/FAN4Q9N44MVTFNQ3R1URCT.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/__ExternalActors__/ThirdPerson/Lvl_ThirdPerson/8/U7/DFUFR2FQVIM2C9Y8FXZKOA.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/__ExternalActors__/ThirdPerson/Lvl_ThirdPerson/8/U7/DFUFR2FQVIM2C9Y8FXZKOA.uasset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/__ExternalActors__/ThirdPerson/Lvl_ThirdPerson/9/GV/822FZXPB9846ZBHK8KUXF6.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/__ExternalActors__/ThirdPerson/Lvl_ThirdPerson/9/GV/822FZXPB9846ZBHK8KUXF6.uasset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/__ExternalActors__/ThirdPerson/Lvl_ThirdPerson/A/30/7XI39MN6GHRE1OD4Y13LLS.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/__ExternalActors__/ThirdPerson/Lvl_ThirdPerson/A/8S/4IT78R29GQWASWLJ1JY63M.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/__ExternalActors__/ThirdPerson/Lvl_ThirdPerson/A/K4/S6X3HUGXY24IQFQF0HLQAZ.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/__ExternalActors__/ThirdPerson/Lvl_ThirdPerson/A/K4/S6X3HUGXY24IQFQF0HLQAZ.uasset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/__ExternalActors__/ThirdPerson/Lvl_ThirdPerson/A/LY/KT0NR33FYV7FXPXT80MNFK.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/__ExternalActors__/ThirdPerson/Lvl_ThirdPerson/A/LY/KT0NR33FYV7FXPXT80MNFK.uasset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/__ExternalActors__/ThirdPerson/Lvl_ThirdPerson/A/MQ/E12F8GL8PURVJMX0BV3QA2.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/__ExternalActors__/ThirdPerson/Lvl_ThirdPerson/A/O7/8KY1UL8E3RLVUJAAY6GHKC.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/__ExternalActors__/ThirdPerson/Lvl_ThirdPerson/B/7U/Q8R1Z05V4HP1LHKG4BDAPY.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/__ExternalActors__/ThirdPerson/Lvl_ThirdPerson/B/7U/Q8R1Z05V4HP1LHKG4BDAPY.uasset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/__ExternalActors__/ThirdPerson/Lvl_ThirdPerson/B/LE/W8OQ3N0Y7FWMBRC4TGEJ5C.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/__ExternalActors__/ThirdPerson/Lvl_ThirdPerson/B/LE/W8OQ3N0Y7FWMBRC4TGEJ5C.uasset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/__ExternalActors__/ThirdPerson/Lvl_ThirdPerson/C/1U/32WPBXR2LT5OXY1CQ1V9A7.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/__ExternalActors__/ThirdPerson/Lvl_ThirdPerson/C/KP/4EO3YCY9FXTZIIVXXDYS2D.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/__ExternalActors__/ThirdPerson/Lvl_ThirdPerson/D/2E/2E4VKS4YTF8LCKQ2Q76NF2.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/__ExternalActors__/ThirdPerson/Lvl_ThirdPerson/E/FQ/3Z1704ZE09ZK4HIH2OL7BR.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/__ExternalActors__/ThirdPerson/Lvl_ThirdPerson/E/HL/3DVL4A77X5TIX1VHVAT0RF.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/__ExternalActors__/ThirdPerson/Lvl_ThirdPerson/E/RX/AZIF0DYPYQA9T40YCSKX1V.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/__ExternalActors__/ThirdPerson/Lvl_ThirdPerson/E/RX/AZIF0DYPYQA9T40YCSKX1V.uasset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/__ExternalActors__/ThirdPerson/Lvl_ThirdPerson/E/Y4/IIGGV2CZOM6JXIIX1N0MTO.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/__ExternalActors__/ThirdPerson/Lvl_ThirdPerson/E/Y4/IIGGV2CZOM6JXIIX1N0MTO.uasset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/__ExternalActors__/ThirdPerson/Lvl_ThirdPerson/E/Y8/8GLICVY50BZ4EF5JJ5731X.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/__ExternalActors__/ThirdPerson/Lvl_ThirdPerson/F/54/KNGVMEVAQOXWT9LD1QJZYK.uasset" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Intermediate/Build/Mac/ActionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/Build/Mac/ActionHistory.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Intermediate/Build/Mac/GASEditor/Development/GASEditor.uhtmanifest" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/Build/Mac/GASEditor/Development/GASEditor.uhtmanifest" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Intermediate/Build/Mac/arm64/GASEditor/Development/HotReloadState.bin" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Intermediate/Build/Mac/arm64/GASEditor/Development/Makefile.bin" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/Build/Mac/arm64/GASEditor/Development/Makefile.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Intermediate/Build/Mac/arm64/GASEditor/Development/TargetMetadata.dat" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/Build/Mac/arm64/GASEditor/Development/TargetMetadata.dat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Intermediate/Build/Mac/arm64/UnrealEditor/Development/GAS/Definitions.GAS.h" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/Build/Mac/arm64/UnrealEditor/Development/GAS/Definitions.GAS.h" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Intermediate/Build/SourceFileCache.bin" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/Build/SourceFileCache.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Intermediate/CachedAssetRegistry_0.bin" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/CachedAssetRegistry_0.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Intermediate/ProjectFiles/.Rider/Mac/Development/Editor/GAS.json" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/ProjectFiles/.Rider/Mac/Development/Editor/GAS.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Intermediate/ProjectFiles/.Rider/Mac/Development/Editor/UnrealEditor.json" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/ProjectFiles/.Rider/Mac/Development/Editor/UnrealEditor.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Saved/AutoScreenshot.png" beforeDir="false" afterPath="$PROJECT_DIR$/Saved/AutoScreenshot.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Saved/Config/CrashReportClient/UECC-Mac-110F523B8248678EF100B083F881B084/CrashReportClient.ini" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Saved/Config/CrashReportClient/UECC-Mac-1475E735C348EBCA90E8F9BB6C679051/CrashReportClient.ini" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Saved/Config/CrashReportClient/UECC-Mac-30AB6E617D4F9429166BF3A7A702CA1E/CrashReportClient.ini" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Saved/Config/CrashReportClient/UECC-Mac-374C3534984A0E04FC789B943CE12EF5/CrashReportClient.ini" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Saved/Config/CrashReportClient/UECC-Mac-4430135D83486785F165D888E5EB05DD/CrashReportClient.ini" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Saved/Config/CrashReportClient/UECC-Mac-57040E9C884FB85165142D9F77D6AAFA/CrashReportClient.ini" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Saved/Config/CrashReportClient/UECC-Mac-59770C0882491B5E38CDAB9888B0666E/CrashReportClient.ini" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Saved/Config/CrashReportClient/UECC-Mac-73366218D44F79B912B8BCA69647AC49/CrashReportClient.ini" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Saved/Config/CrashReportClient/UECC-Mac-783DEF18604CB5A6BCB38694B827D7DA/CrashReportClient.ini" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Saved/Config/CrashReportClient/UECC-Mac-95AFE656624E9116BCD2C99FFAB2AB74/CrashReportClient.ini" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Saved/Config/CrashReportClient/UECC-Mac-9BBC36FE7D4606B0194EE8AF7498C6F5/CrashReportClient.ini" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Saved/Config/CrashReportClient/UECC-Mac-A36139BE5F4BA38EBE0EB080B326FA50/CrashReportClient.ini" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Saved/Config/CrashReportClient/UECC-Mac-AA9FDE59064B1B55CD0875B29337DFD0/CrashReportClient.ini" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Saved/Config/CrashReportClient/UECC-Mac-C4584C7520401334765D5C9F5E03661B/CrashReportClient.ini" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Saved/Config/CrashReportClient/UECC-Mac-CAC23EB4B44E8CC99ACD7D95F55161EA/CrashReportClient.ini" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Saved/Config/MacEditor/EditorPerProjectUserSettings.ini" beforeDir="false" afterPath="$PROJECT_DIR$/Saved/Config/MacEditor/EditorPerProjectUserSettings.ini" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Saved/SourceControl/UncontrolledChangelists.json" beforeDir="false" afterPath="$PROJECT_DIR$/Saved/SourceControl/UncontrolledChangelists.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Source/GAS/GAS.Build.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Source/GAS/GAS.Build.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/GAS/MyCharacter.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Source/GAS/GameplayAbilitySystem/Characters/MyCharacter.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/GAS/MyCharacter.h" beforeDir="false" afterPath="$PROJECT_DIR$/Source/GAS/GameplayAbilitySystem/Characters/MyCharacter.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Source/GAS/GameplayAbilitySystem/Attributes/BasicAttributes.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Source/GAS/GameplayAbilitySystem/Attributes/BasicAttributes.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Source/GAS/GameplayAbilitySystem/Characters/MyCharacter.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Source/GAS/GameplayAbilitySystem/Characters/MyCharacter.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Source/GAS/GameplayAbilitySystem/Characters/MyCharacter.h" beforeDir="false" afterPath="$PROJECT_DIR$/Source/GAS/GameplayAbilitySystem/Characters/MyCharacter.h" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -59,6 +95,7 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
   </component>
   <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/../../../../../../../Shared/Epic Games/UE_5.7/Engine/Source/Runtime/Core/Public/Modules/ModuleManager.h" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Intermediate/Build/Mac/UnrealEditor/Inc/GAS/UHT/MyCharacter.gen.cpp" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="ProjectColorInfo">{
@@ -69,23 +106,23 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ModuleVcsDetector.initialDetectionPerformed": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "RunOnceActivity.typescript.service.memoryLimit.init": "true",
-    "Uproject.GAS.executor": "Run",
-    "git-widget-placeholder": "main",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "preferences.pluginManager",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.typescript.service.memoryLimit.init&quot;: &quot;true&quot;,
+    &quot;Uproject.GAS.executor&quot;: &quot;Run&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RunManager">
     <configuration name="GAS" type="Uproject" factoryName="rider.uproject">
       <configuration_1 setup="1">
@@ -172,6 +209,8 @@
       <workItem from="1769265530414" duration="232000" />
       <workItem from="1769307062939" duration="5018000" />
       <workItem from="1769316340032" duration="1680000" />
+      <workItem from="1769484282686" duration="6502000" />
+      <workItem from="1769604559918" duration="1571000" />
     </task>
     <servers />
   </component>

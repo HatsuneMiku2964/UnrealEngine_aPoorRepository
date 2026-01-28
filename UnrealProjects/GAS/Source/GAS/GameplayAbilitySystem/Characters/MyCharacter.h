@@ -11,7 +11,7 @@
 UCLASS()
 class GAS_API AMyCharacter : public ACharacter, public IAbilitySystemInterface
 {
-	GENERATED_BODY()
+	GENERATED_BODY()	
 public:
 	// Sets default values for this character's properties
 	AMyCharacter();
@@ -31,15 +31,18 @@ protected:
 	// Called when the game starts or when spawned
 	virtual void BeginPlay() override;
 	
+	// Override PossessedBy to initialize the Ability System Component
 	virtual void PossessedBy(AController* NewController) override;
 	
+	// Override OnRep_PlayerState to initialize the Ability System Component for clients
 	virtual void OnRep_PlayerState() override;
 public:	
 	// Called every frame
 	virtual void Tick(float DeltaTime) override;
 
 	// Called to bind functionality to input
-	virtual void SetupPlayerInputComponent(class UInputComponent* PlayerInputComponent) override;
+	virtual void SetupPlayerInputComponent(UInputComponent* PlayerInputComponent) override;
 
+	// Implement GetAbilitySystemComponent from IAbilitySystemInterface
 	virtual UAbilitySystemComponent* GetAbilitySystemComponent() const override;
 };

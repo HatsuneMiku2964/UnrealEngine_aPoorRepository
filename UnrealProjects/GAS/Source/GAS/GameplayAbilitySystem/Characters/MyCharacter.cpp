@@ -17,27 +17,32 @@ AMyCharacter::AMyCharacter()
 	AbilitySystemComponent -> SetIsReplicated(true);
 	AbilitySystemComponent -> SetReplicationMode(AscReplicationMode);
 	
-	// Set size for collision capsule
-	GetCapsuleComponent()->InitCapsuleSize(35.0f, 90.0f);
+	// Configure Character Movement and Collision
+	
+		// Set size for collision capsule
+		GetCapsuleComponent() -> InitCapsuleSize(35.0f, 90.0f);
 
-	// Don't rotate when the controller rotates. Let that just affect the camera.
-	bUseControllerRotationPitch = false;
-	bUseControllerRotationYaw = false;
-	bUseControllerRotationRoll = false;
+		// Don't rotate when the controller rotates. Let that just affect the camera.
+		bUseControllerRotationPitch = false;
+		bUseControllerRotationYaw = false;
+		bUseControllerRotationRoll = false;
 
-	// Configure character movement
-	GetCharacterMovement()->bOrientRotationToMovement = true;
-	GetCharacterMovement()->RotationRate = FRotator(0.0f, 500.0f, 0.0f);
+		// Configure character movement
+		GetCharacterMovement() -> bOrientRotationToMovement = true;
+		GetCharacterMovement() -> RotationRate = FRotator(0.0f, 500.0f, 0.0f);
 
-	GetCharacterMovement()->JumpZVelocity = 500.f;
-	GetCharacterMovement()->AirControl = 0.35f;
-	GetCharacterMovement()->MaxWalkSpeed = 500.f;
-	GetCharacterMovement()->MinAnalogWalkSpeed = 20.f;
-	GetCharacterMovement()->BrakingDecelerationWalking = 2000.f;
-	GetCharacterMovement()->BrakingDecelerationFalling = 1500.0f;
+		GetCharacterMovement() -> JumpZVelocity = 500.f;
+		GetCharacterMovement() -> AirControl = 0.35f;
+		GetCharacterMovement() -> MaxWalkSpeed = 500.f;
+		GetCharacterMovement() -> MinAnalogWalkSpeed = 20.f;
+		GetCharacterMovement() -> BrakingDecelerationWalking = 2000.f;
+		GetCharacterMovement() -> BrakingDecelerationFalling = 1500.0f;
+	
+	// End Configure Character Movement and Collision
 	
 	// Create Attribute Sets
 	BasicAttributes = CreateDefaultSubobject<UBasicAttributes>(TEXT("BasicAttributes"));
+	BasicAttributes -> 
 }
 // Called when the game starts or when spawned
 void AMyCharacter::BeginPlay()
@@ -62,7 +67,9 @@ void AMyCharacter::SetupPlayerInputComponent(UInputComponent* PlayerInputCompone
 
 void AMyCharacter::PossessedBy(AController* NewController)
 {
+	// Call the base class version first
 	Super::PossessedBy(NewController);
+	// Initialize the Ability System Component for the server
 	if (AbilitySystemComponent)
 	{
 		AbilitySystemComponent -> InitAbilityActorInfo(this, this);
@@ -71,13 +78,16 @@ void AMyCharacter::PossessedBy(AController* NewController)
 
 void AMyCharacter::OnRep_PlayerState()
 {
+	// Call the base class version first
 	Super::OnRep_PlayerState();
+	// Initialize the Ability System Component for the client
 	if (AbilitySystemComponent)
 	{
 		AbilitySystemComponent -> InitAbilityActorInfo(this, this);
 	}
 }
 
+// Implement GetAbilitySystemComponent from IAbilitySystemInterface
 UAbilitySystemComponent* AMyCharacter::GetAbilitySystemComponent() const
 {
 	return AbilitySystemComponent;

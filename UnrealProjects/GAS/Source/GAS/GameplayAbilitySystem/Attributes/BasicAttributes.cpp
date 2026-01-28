@@ -7,6 +7,7 @@
 
 UBasicAttributes::UBasicAttributes()
 {
+	// Initialize attributes
 	HP = 100.f;
 	Max_HP = 100.f;
 	Stamina = 100.f;
@@ -43,10 +44,12 @@ void UBasicAttributes::PostGameplayEffectExecute(const FGameplayEffectModCallbac
 	
 	if (Data.EvaluatedData.Attribute == GetHPAttribute())
 	{
+		// This will call the "PreAttributeChange" func, which clamp attributes
 		SetHP(GetHP());
 	}
 	else if (Data.EvaluatedData.Attribute == GetStaminaAttribute())
 	{
+		// This will call the "PreAttributeChange" func, which clamp attributes
 		SetStamina(GetStamina());
 	}
 }
